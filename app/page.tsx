@@ -12,7 +12,7 @@ const VENTURES = [
   },
   {
     name: 'RenewalMate',
-    url: 'https://renewalmate.com',
+    url: 'https://www.renewalmate.com',
     color: '#2d9e6b',
     tag: 'FinTech',
     desc: 'Stop bleeding money on subscriptions and bills you forgot about. Track every recurring expense in one free dashboard — no paywall, ever.',
@@ -20,11 +20,11 @@ const VENTURES = [
   },
   {
     name: 'Hearthforge',
-    url: '#',
+    url: 'https://hearth-forge.com',
     color: '#e07b39',
     tag: '3D Products',
     desc: 'Modular desk rail systems for streamers and content creators. Premium matte black hardware designed for the modern setup. Physical + digital.',
-    badge: 'Coming Soon',
+    badge: 'Live',
   },
   {
     name: "Gilgamesh's Guides",
@@ -45,18 +45,19 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Image
-              src="https://images.squarespace-cdn.com/content/v1/683f1f5e568c642d78d49253/5710312f-f277-4f57-915f-2b24cf3fd095/G+E+%281%29.png?format=1500w"
+              src="/logo.png"
               alt="Gilgamesh Enterprise"
               width={40}
               height={40}
               className="rounded-lg"
-              unoptimized
+
             />
             <span className="font-bold text-sm tracking-wide text-[#c9a84c] hidden sm:block">GILGAMESH ENTERPRISE</span>
           </div>
           <div className="flex items-center gap-6 text-sm text-gray-400">
             <a href="#ventures" className="hover:text-[#c9a84c] transition-colors">Ventures</a>
-            <a href="#mission" className="hover:text-[#c9a84c] transition-colors">Mission</a>
+            <Link href="/guides" className="hover:text-[#c9a84c] transition-colors">Guides</Link>
+            <Link href="/blog" className="hover:text-[#c9a84c] transition-colors">Blog</Link>
             <a href="#contact" className="hover:text-[#c9a84c] transition-colors">Contact</a>
           </div>
         </div>
@@ -71,7 +72,7 @@ export default function Home() {
 
         <div className="relative max-w-4xl mx-auto">
           <Image
-            src="https://images.squarespace-cdn.com/content/v1/683f1f5e568c642d78d49253/5710312f-f277-4f57-915f-2b24cf3fd095/G+E+%281%29.png?format=1500w"
+            src="/logo.png"
             alt="Gilgamesh Enterprise"
             width={120}
             height={120}
@@ -251,12 +252,12 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <Image
-              src="https://images.squarespace-cdn.com/content/v1/683f1f5e568c642d78d49253/5710312f-f277-4f57-915f-2b24cf3fd095/G+E+%281%29.png?format=1500w"
+              src="/logo.png"
               alt="Gilgamesh Enterprise"
               width={28}
               height={28}
               className="rounded-lg"
-              unoptimized
+
             />
             <span className="text-xs text-gray-600 font-semibold">© 2026 Gilgamesh Enterprise LLC. All rights reserved.</span>
           </div>
