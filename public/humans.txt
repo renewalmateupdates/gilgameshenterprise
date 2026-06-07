@@ -1,0 +1,19 @@
+/* TEAM */
+Founder & CEO: Joshua Bostic
+Location: Indiana, USA
+Company: Gilgamesh Enterprise LLC (Wyoming)
+Contact: gilgameshenterprisellc@gmail.com
+
+/* VENTURES */
+SocialMate: https://socialmate.studio
+RenewalMate: https://www.renewalmate.com
+Hearthforge: https://hearth-forge.com
+
+/* SITE */
+Language: English
+Framework: Next.js 15 (App Router)
+Hosted: Vercel (free tier)
+Domain registered: Squarespace (through June 2027)
+
+/* MISSION */
+Power to the people. No gatekeeping. Build the door.
