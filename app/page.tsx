@@ -22,8 +22,8 @@ const VENTURES = [
     name: 'Hearthforge',
     url: 'https://hearth-forge.com',
     color: '#e07b39',
-    tag: '3D Products',
-    desc: 'Modular desk rail systems for streamers and content creators. Premium matte black hardware designed for the modern setup. Physical + digital.',
+    tag: '3D Products — Partnership',
+    desc: 'Co-founded with Butch Chiappinelli. Modular 3D-printed desk rail systems for streamers and content creators. Matte black, precision-made, modular. Joshua handles web and business; Butch handles manufacturing on a Bambu Lab X1 Carbon.',
     badge: 'Live',
   },
   {
@@ -58,6 +58,7 @@ export default function Home() {
             <a href="#ventures" className="hover:text-[#c9a84c] transition-colors">Ventures</a>
             <Link href="/guides" className="hover:text-[#c9a84c] transition-colors">Guides</Link>
             <Link href="/blog" className="hover:text-[#c9a84c] transition-colors">Blog</Link>
+            <Link href="/faq" className="hover:text-[#c9a84c] transition-colors">FAQ</Link>
             <a href="#contact" className="hover:text-[#c9a84c] transition-colors">Contact</a>
           </div>
         </div>

@@ -1,19 +1,11 @@
 import Link from 'next/link'
 import { BLOG_POSTS } from '@/lib/blog-posts'
 import type { Metadata } from 'next'
+import BlogClient from './BlogClient'
 
 export const metadata: Metadata = {
   title: 'Blog — Gilgamesh Enterprise',
   description: 'Business formation, bootstrapping, vibe coding, content marketing, and building an empire from nothing. Real talk from a solo founder.',
-}
-
-const CATEGORY_COLORS: Record<string, string> = {
-  'Business':        'bg-amber-100 text-amber-700',
-  'Business Credit': 'bg-blue-100 text-blue-700',
-  'Founder Story':   'bg-purple-100 text-purple-700',
-  'Tech':            'bg-gray-100 text-gray-700',
-  'Mission':         'bg-yellow-100 text-yellow-700',
-  'Marketing':       'bg-green-100 text-green-700',
 }
 
 export default function BlogPage() {
@@ -27,9 +19,11 @@ export default function BlogPage() {
             <span className="font-black text-white tracking-tight hidden sm:block">Gilgamesh Enterprise</span>
           </Link>
           <div className="flex gap-5 text-sm">
-            <Link href="/ventures" className="text-gray-400 hover:text-[#d4a017] transition-colors">Ventures</Link>
+            <Link href="/#ventures" className="text-gray-400 hover:text-[#d4a017] transition-colors">Ventures</Link>
             <Link href="/guides" className="text-gray-400 hover:text-[#d4a017] transition-colors">Guides</Link>
             <Link href="/blog" className="text-[#d4a017] font-semibold">Blog</Link>
+            <Link href="/faq" className="text-gray-400 hover:text-[#d4a017] transition-colors">FAQ</Link>
+            <Link href="/#contact" className="text-gray-400 hover:text-[#d4a017] transition-colors">Contact</Link>
           </div>
         </div>
       </nav>
@@ -40,23 +34,7 @@ export default function BlogPage() {
           <h1 className="text-5xl font-black text-white tracking-tight mb-4">No fluff. Real talk.</h1>
           <p className="text-gray-400 text-lg">Business formation, bootstrapping, building with AI, and making it from nothing.</p>
         </div>
-
-        <div className="space-y-6">
-          {sorted.map(post => (
-            <Link key={post.slug} href={`/blog/${post.slug}`}
-              className="block bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-[#d4a017]/40 hover:bg-white/8 transition-all group">
-              <div className="flex items-center gap-3 mb-3">
-                <span className={`text-xs font-bold px-3 py-1 rounded-full ${CATEGORY_COLORS[post.category] ?? 'bg-gray-100 text-gray-700'}`}>
-                  {post.category}
-                </span>
-                <span className="text-xs text-gray-600">{new Date(post.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
-              </div>
-              <h2 className="text-xl font-black text-white mb-2 group-hover:text-[#d4a017] transition-colors">{post.title}</h2>
-              <p className="text-gray-400 text-sm leading-relaxed">{post.excerpt}</p>
-              <p className="text-[#d4a017] text-xs font-semibold mt-4">Read more →</p>
-            </Link>
-          ))}
-        </div>
+        <BlogClient posts={sorted} />
       </div>
 
       <footer className="border-t border-white/10 py-8 px-6 mt-16">
