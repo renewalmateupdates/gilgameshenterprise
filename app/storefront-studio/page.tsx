@@ -215,33 +215,81 @@ export default function StorefrontStudioPage() {
             <p className="text-[#c9a84c] text-xs font-bold tracking-[0.3em] uppercase mb-3">Proof, Not Promises</p>
             <h2 className="text-4xl font-black tracking-tight">See it live</h2>
           </div>
-          <a
-            href="https://rjstreecare.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group block bg-[#0f0f0f] border border-[#1e1e1e] rounded-2xl p-8 hover:border-[#c9a84c]/40 transition-all hover:-translate-y-0.5"
-          >
-            <div className="flex items-start justify-between flex-wrap gap-4">
-              <div>
-                <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-[#2d9e6b]/10 text-[#2d9e6b] mb-3 inline-block">
-                  Live Client Site
-                </span>
-                <h3 className="text-2xl font-black text-white group-hover:text-[#c9a84c] transition-colors">
-                  rjstreecare.com
-                </h3>
-                <p className="text-gray-500 text-sm mt-1">RJ&apos;s Tree Care — Dillsboro, IN</p>
+          <div className="flex flex-col gap-4">
+            {/* Live client */}
+            <a
+              href="https://rjstreecare.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block bg-[#0f0f0f] border border-[#1e1e1e] rounded-2xl p-8 hover:border-[#c9a84c]/40 transition-all hover:-translate-y-0.5"
+            >
+              <div className="flex items-start justify-between flex-wrap gap-4">
+                <div>
+                  <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-[#2d9e6b]/10 text-[#2d9e6b] mb-3 inline-block">
+                    Live Client Site
+                  </span>
+                  <h3 className="text-2xl font-black text-white group-hover:text-[#c9a84c] transition-colors">
+                    rjstreecare.com
+                  </h3>
+                  <p className="text-gray-500 text-sm mt-1">RJ&apos;s Tree Care — Dillsboro, IN</p>
+                </div>
+                <p className="text-[#c9a84c] text-sm font-semibold group-hover:underline">
+                  Visit the live site →
+                </p>
               </div>
-              <p className="text-[#c9a84c] text-sm font-semibold group-hover:underline">
-                Visit the live site →
+              <p className="text-gray-400 text-sm leading-relaxed mt-5 max-w-2xl">
+                A real, full-featured local business site: 19 pages, technical SEO with schema markup,
+                service-area pages targeting real cities and zip codes, a photo gallery of real completed
+                jobs, and a contact pipeline that lands every lead directly in the owner&apos;s inbox.
+                This is the caliber of site every Storefront Studio client gets, not a stripped-down demo.
               </p>
+            </a>
+
+            {/* Demo sites */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <a
+                href="https://dentist-demo-phi.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block bg-[#0f0f0f] border border-[#1e1e1e] rounded-2xl p-6 hover:border-[#c9a84c]/40 transition-all hover:-translate-y-0.5"
+              >
+                <div className="flex items-start justify-between gap-3 mb-3">
+                  <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-blue-500/10 text-blue-400 shrink-0">
+                    Demo — Medical
+                  </span>
+                  <p className="text-[#c9a84c] text-xs font-semibold group-hover:underline shrink-0">View demo →</p>
+                </div>
+                <h3 className="text-lg font-black text-white group-hover:text-[#c9a84c] transition-colors mb-1">
+                  Maple &amp; Birch Family Dentistry
+                </h3>
+                <p className="text-gray-500 text-xs mb-3">Family dental practice — services, team, booking flow</p>
+                <p className="text-gray-500 text-xs leading-relaxed">
+                  Multi-page dental site with services, meet-the-team, patient resources, insurance info, and a conversion-focused contact flow.
+                </p>
+              </a>
+
+              <a
+                href="https://bakery-demo-eta.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block bg-[#0f0f0f] border border-[#1e1e1e] rounded-2xl p-6 hover:border-[#c9a84c]/40 transition-all hover:-translate-y-0.5"
+              >
+                <div className="flex items-start justify-between gap-3 mb-3">
+                  <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-400 shrink-0">
+                    Demo — Food &amp; Bakery
+                  </span>
+                  <p className="text-[#c9a84c] text-xs font-semibold group-hover:underline shrink-0">View demo →</p>
+                </div>
+                <h3 className="text-lg font-black text-white group-hover:text-[#c9a84c] transition-colors mb-1">
+                  Wren &amp; Wheat Bakehouse
+                </h3>
+                <p className="text-gray-500 text-xs mb-3">Artisan bakery and café — 17 pages, menu, ordering, blog</p>
+                <p className="text-gray-500 text-xs leading-relaxed">
+                  Full-featured bakery site with menu, custom cakes, catering, seasonal specials, order-ahead, gallery, and 3 editorial blog posts.
+                </p>
+              </a>
             </div>
-            <p className="text-gray-400 text-sm leading-relaxed mt-5 max-w-2xl">
-              A real, full-featured local business site: 19 pages, technical SEO with schema markup,
-              service-area pages targeting real cities and zip codes, a photo gallery of real completed
-              jobs, and a contact pipeline that lands every lead directly in the owner&apos;s inbox.
-              This is the caliber of site every Storefront Studio client gets, not a stripped-down demo.
-            </p>
-          </a>
+          </div>
         </div>
       </section>
 
