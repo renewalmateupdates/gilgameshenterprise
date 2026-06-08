@@ -34,6 +34,14 @@ const VENTURES = [
     desc: 'Free long-form guides on starting a business, building credit, marketing on zero budget, and vibe coding with AI. No paywall. Ever.',
     badge: 'Live',
   },
+  {
+    name: 'Storefront Studio',
+    url: '/storefront-studio',
+    color: '#5b9bd5',
+    tag: 'Web Services',
+    desc: 'Conversion-focused, mobile-first websites for local businesses. Flat-fee builds starting at $1,500 — see it live at rjstreecare.com.',
+    badge: 'Live',
+  },
 ]
 
 export default function Home() {
@@ -56,6 +64,8 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-6 text-sm text-gray-400">
             <a href="#ventures" className="hover:text-[#c9a84c] transition-colors">Ventures</a>
+            <Link href="/storefront-studio" className="hover:text-[#c9a84c] transition-colors">Storefront Studio</Link>
+            <Link href="/portfolio" className="hover:text-[#c9a84c] transition-colors">Portfolio</Link>
             <Link href="/guides" className="hover:text-[#c9a84c] transition-colors">Guides</Link>
             <Link href="/blog" className="hover:text-[#c9a84c] transition-colors">Blog</Link>
             <Link href="/faq" className="hover:text-[#c9a84c] transition-colors">FAQ</Link>
@@ -120,45 +130,59 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-            {VENTURES.map((v) => (
-              <a
-                key={v.name}
-                href={v.url}
-                target={v.url === '#' ? undefined : '_blank'}
-                rel="noopener noreferrer"
-                className="group block bg-[#0f0f0f] border border-[#1e1e1e] rounded-2xl p-6 hover:border-[#2e2e2e] transition-all hover:-translate-y-0.5"
-              >
-                <div className="flex items-start justify-between mb-4">
-                  <div>
+            {VENTURES.map((v) => {
+              const isInternal = v.url.startsWith('/')
+              const cardInner = (
+                <>
+                  <div className="flex items-start justify-between mb-4">
+                    <div>
+                      <span
+                        className="text-xs font-bold px-2 py-0.5 rounded-full mb-2 inline-block"
+                        style={{ background: `${v.color}20`, color: v.color }}
+                      >
+                        {v.tag}
+                      </span>
+                      <h3 className="text-xl font-black text-white group-hover:text-[#c9a84c] transition-colors">
+                        {v.name}
+                      </h3>
+                    </div>
                     <span
-                      className="text-xs font-bold px-2 py-0.5 rounded-full mb-2 inline-block"
-                      style={{ background: `${v.color}20`, color: v.color }}
+                      className="text-[10px] font-bold px-2 py-1 rounded-full border"
+                      style={{
+                        color: v.badge === 'Live' ? '#2d9e6b' : '#888',
+                        borderColor: v.badge === 'Live' ? '#2d9e6b40' : '#2a2a2a',
+                        background: v.badge === 'Live' ? '#2d9e6b10' : 'transparent',
+                      }}
                     >
-                      {v.tag}
+                      {v.badge === 'Live' ? '● Live' : '○ Soon'}
                     </span>
-                    <h3 className="text-xl font-black text-white group-hover:text-[#c9a84c] transition-colors">
-                      {v.name}
-                    </h3>
                   </div>
-                  <span
-                    className="text-[10px] font-bold px-2 py-1 rounded-full border"
-                    style={{
-                      color: v.badge === 'Live' ? '#2d9e6b' : '#888',
-                      borderColor: v.badge === 'Live' ? '#2d9e6b40' : '#2a2a2a',
-                      background: v.badge === 'Live' ? '#2d9e6b10' : 'transparent',
-                    }}
-                  >
-                    {v.badge === 'Live' ? '● Live' : '○ Soon'}
-                  </span>
-                </div>
-                <p className="text-gray-400 text-sm leading-relaxed">{v.desc}</p>
-                {v.url !== '#' && (
-                  <p className="mt-4 text-[#c9a84c] text-xs font-semibold group-hover:underline">
-                    Visit {v.name} →
-                  </p>
-                )}
-              </a>
-            ))}
+                  <p className="text-gray-400 text-sm leading-relaxed">{v.desc}</p>
+                  {v.url !== '#' && (
+                    <p className="mt-4 text-[#c9a84c] text-xs font-semibold group-hover:underline">
+                      {isInternal ? 'Learn more' : `Visit ${v.name}`} →
+                    </p>
+                  )}
+                </>
+              )
+              const cardClass = "group block bg-[#0f0f0f] border border-[#1e1e1e] rounded-2xl p-6 hover:border-[#2e2e2e] transition-all hover:-translate-y-0.5"
+
+              return isInternal ? (
+                <Link key={v.name} href={v.url} className={cardClass}>
+                  {cardInner}
+                </Link>
+              ) : (
+                <a
+                  key={v.name}
+                  href={v.url}
+                  target={v.url === '#' ? undefined : '_blank'}
+                  rel="noopener noreferrer"
+                  className={cardClass}
+                >
+                  {cardInner}
+                </a>
+              )
+            })}
           </div>
         </div>
       </section>
@@ -222,6 +246,11 @@ export default function Home() {
               <span key={t} className="px-3 py-1.5 border border-[#1e1e1e] rounded-full">{t}</span>
             ))}
           </div>
+          <p className="mt-8 text-sm">
+            <Link href="/portfolio" className="text-[#c9a84c] font-semibold hover:underline">
+              See the full builder resume — every product, every client site, every tool in the stack →
+            </Link>
+          </p>
         </div>
       </section>
 
