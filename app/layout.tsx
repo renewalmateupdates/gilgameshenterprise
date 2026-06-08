@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { Analytics } from '@vercel/analytics/next'
 
 export const metadata: Metadata = {
   title: 'Gilgamesh Enterprise LLC — Building the Empire',
@@ -24,6 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className="h-full">
       <body className="min-h-full flex flex-col bg-[#080808] text-[#f0f0f0]">
         {children}
+        <Analytics />
       </body>
     </html>
   )
