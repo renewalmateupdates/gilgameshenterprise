@@ -58,11 +58,11 @@ const FAQS = [
       },
       {
         q: 'Can I work with or partner with Gilgamesh Enterprise?',
-        a: 'Reach out at gilgameshenterprisellc@gmail.com. Joshua is open to: partnerships, client websites, equity conversations, and collaborations that make sense. Not open to: spam, vague "let\'s chat" requests with no substance.',
+        a: 'Reach out at gilgameshenterprisellc@gmail.com. Joshua is open to: partnerships, client websites, equity conversations, and collaborations that make sense. Not open to: spam, vague "let\'s chat" requests with no substance. Want to see what he\'s actually built first? Check the full builder resume at the Portfolio page.',
       },
       {
         q: 'Do you offer web development services?',
-        a: 'Yes. Joshua builds local business websites - conversion-focused, mobile-first, flat-fee. Stack: Next.js, Tailwind, Vercel. Typical cost: well under what an agency charges. Get in touch to discuss.',
+        a: 'Yes - through Storefront Studio, Gilgamesh Enterprise\'s local business website service. Conversion-focused, mobile-first, flat-fee builds starting around $1,500. Stack: Next.js, Tailwind, Vercel - the same one powering SocialMate. See live work at rjstreecare.com or visit the Storefront Studio page for pricing by industry.',
       },
     ],
   },
