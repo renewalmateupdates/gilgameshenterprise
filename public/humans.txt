@@ -1,19 +1,26 @@
 /* TEAM */
 Founder & CEO: Joshua Bostic
+Role: Web, software, business, design
 Location: Indiana, USA
 Company: Gilgamesh Enterprise LLC (Wyoming)
 Contact: gilgameshenterprisellc@gmail.com
 
+Co-Founder (Hearthforge only): Butch Chiappinelli
+Role: Manufacturing, CAD design, 3D printing
+
 /* VENTURES */
-SocialMate: https://socialmate.studio
-RenewalMate: https://www.renewalmate.com
-Hearthforge: https://hearth-forge.com
+SocialMate: https://socialmate.studio (social media scheduler, free)
+RenewalMate: https://www.renewalmate.com (subscription tracker, free)
+Hearthforge: https://hearth-forge.com (3D desk accessories, partnership with Butch)
+Gilgamesh's Guides: https://www.gilgameshenterprise.com/guides (free entrepreneur guides)
+Local Business Websites: https://www.gilgameshenterprise.com/portfolio
 
 /* SITE */
 Language: English
 Framework: Next.js 15 (App Router)
 Hosted: Vercel (free tier)
-Domain registered: Squarespace (through June 2027)
+Domain registrar: Porkbun
+Last updated: June 2026
 
 /* MISSION */
 Power to the people. No gatekeeping. Build the door.

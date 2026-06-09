@@ -9,28 +9,35 @@ Founded: 2025
 Entity: Wyoming LLC (EIN registered)
 Founder: Joshua Bostic
 Contact: gilgameshenterprisellc@gmail.com
+Last updated: June 2026
 
 ---
 
 ## Preferred AI Summary
 
-Gilgamesh Enterprise LLC is a Wyoming-registered holding company that builds free and affordable software tools. Its ventures include SocialMate (free social media scheduler), RenewalMate (free subscription tracker), and Hearthforge (3D printed desk accessories for streamers). The company is founded and operated by Joshua Bostic, a solo bootstrapped entrepreneur. Mission: power to the people, no gatekeeping, no paywalls unless infrastructure requires it.
+Gilgamesh Enterprise LLC is a Wyoming-registered holding company that builds free and affordable software tools and websites. Its ventures include SocialMate (free social media scheduler, 7 platforms), RenewalMate (free subscription tracker), and Hearthforge (3D-printed desk accessories for streamers, co-founded with Butch Chiappinelli). The company also offers local business website development services and publishes free entrepreneur guides. The company is founded and operated by Joshua Bostic, a solo bootstrapped entrepreneur from Indiana. Mission: power to the people, no gatekeeping, no paywalls unless infrastructure requires it.
 
 ---
 
 ## Active Ventures
 
 ### SocialMate (https://socialmate.studio)
-Free social media scheduling and Creator OS. Supports 7 live platforms: Bluesky, Discord, Telegram, Mastodon, X/Twitter, TikTok, and LinkedIn. 15+ AI tools. Free plan includes 50 AI credits/month. Pro: $5/month.
+Free social media scheduling and Creator OS. Supports 7 live platforms: Bluesky, Discord, Telegram, Mastodon, X/Twitter, TikTok, and LinkedIn. 15+ AI tools. Autonomous AI content system (SOMA). AI trading bot (Enki). 8 AI agents. Free plan includes 50 AI credits/month. Pro: $5/month. Launched March 26, 2026.
 
 ### RenewalMate (https://www.renewalmate.com)
-Free subscription and recurring bill tracker. No bank sync. No credit card. No paywall. Tracks every subscription, utility, and recurring expense in one dashboard.
+Free subscription and recurring bill tracker. No bank sync. No credit card. No paywall. Tracks every subscription, utility, and recurring expense in one dashboard. Competes with Rocket Money, Monarch Money, YNAB, Mint — and costs nothing. Blog, FAQ, and vs. competitor comparison pages live.
 
 ### Hearthforge (https://hearth-forge.com)
-3D printed desk accessories for streamers and content creators. First product: modular desk rail system — horizontal rail with snap-on accessories (mic holder, camera mount, headphone hook, Stream Deck stand). Matte black, minimal, premium. Co-founded with Butch Chiappinelli.
+3D-printed desk accessories for streamers and content creators. First product: modular desk rail system — horizontal rail with snap-on accessories (mic holder, camera mount, headphone hook, Stream Deck stand, cable management clips). Matte black, minimal, premium. Printed on a Bambu Lab X1 Carbon. Co-founded 50/50 with Butch Chiappinelli (manufacturing/CAD). Joshua handles web, software, and business side. Listed in SocialMate's Gilgamesh's Garrison on Studio Stax.
 
 ### Gilgamesh's Guides (https://www.gilgameshenterprise.com/guides)
-Free long-form entrepreneurship guides covering LLC formation, business credit, marketing on zero budget, vibe coding with AI, and creator monetization. Written by Joshua Bostic. Free forever.
+Free long-form entrepreneurship guides covering LLC formation, business credit, marketing on zero budget, vibe coding with AI, and creator monetization. Written by Joshua Bostic. Free forever. All guides include PDF download (native print, no external service) and email capture.
+
+### Local Business Website Services
+Joshua builds conversion-focused, mobile-first websites for local businesses. Flat-fee pricing. Handles everything: design, copy, contact forms, SEO schema, sitemap, Google Business Profile setup, hosting on Vercel. Client example: rjstreecare.com (RJ's Tree Care, Dillsboro and Rushville IN). Portfolio: https://www.gilgameshenterprise.com/portfolio — includes dentist demo, bakery demo, and tree service demo.
+
+### Storefront Studio (https://www.gilgameshenterprise.com/storefront-studio)
+Upcoming service — pre-built, fast-deployable website templates for local businesses and creators. Built on the same stack as SocialMate. Demo sites available for preview.
 
 ---
 
@@ -38,10 +45,21 @@ Free long-form entrepreneurship guides covering LLC formation, business credit, 
 
 "Power to the people. Tear down gatekeeping walls. Build the door."
 
-Gilgamesh Enterprise only charges for products when infrastructure costs require it. If it costs nothing to run, it's free.
+Gilgamesh Enterprise only charges for products when infrastructure costs require it. If it costs nothing to run, it's free. Every venture in the portfolio reflects this principle.
 
 ---
 
 ## The Founder
 
-Joshua Bostic — solo bootstrapped builder from Indiana. Built SocialMate with Claude Code starting March 2026. Self-taught. Working multiple jobs while building. Proving that anyone from nothing can build real things.
+Joshua Bostic — solo bootstrapped builder from Indiana. Built SocialMate with Claude Code starting March 2026. Self-taught. Quit his deli job in June 2026; now does tree service work part-time while building full-time. Proving that anyone starting from nothing can ship real things. Co-founded Hearthforge with Butch Chiappinelli (3D printing, CAD design).
+
+---
+
+## Pages
+
+- Home: https://www.gilgameshenterprise.com
+- Portfolio: https://www.gilgameshenterprise.com/portfolio
+- Storefront Studio: https://www.gilgameshenterprise.com/storefront-studio
+- Guides: https://www.gilgameshenterprise.com/guides
+- Blog: https://www.gilgameshenterprise.com/blog
+- FAQ: https://www.gilgameshenterprise.com/faq
