@@ -47,6 +47,46 @@ const GUIDES = [
     href: 'https://socialmate.studio/guides/creator-monetization',
     tag: 'Monetization',
   },
+  {
+    vol: 'Vol. 6',
+    title: 'Your First 30 Days on Social Media',
+    desc: 'The One-Platform Rule, setting up profiles that convert, your first 10 posts, a consistency system, and getting your first 100 followers without spending a dollar.',
+    chapters: 9,
+    href: 'https://socialmate.studio/guides/first-30-days-social-media',
+    tag: 'Social Media',
+  },
+  {
+    vol: 'Vol. 7',
+    title: 'Build Your Brand from Zero',
+    desc: 'Finding your niche without pigeonholing yourself, telling your story, building a free visual identity, developing your voice, and turning your brand into opportunity.',
+    chapters: 9,
+    href: 'https://socialmate.studio/guides/build-your-brand-from-zero',
+    tag: 'Personal Brand',
+  },
+  {
+    vol: 'Vol. 8',
+    title: 'From Side Hustle to Full-Time Creator',
+    desc: 'Building while you work, your first $500 online, the creator revenue stack, when to actually quit your job, and the bridge income strategy.',
+    chapters: 9,
+    href: 'https://socialmate.studio/guides/side-hustle-to-full-time-creator',
+    tag: 'Full-Time Creator',
+  },
+  {
+    vol: 'Vol. 9',
+    title: "The Content Creator's Business Guide",
+    desc: 'Making it official with an LLC, taxes for creators, contracts that protect you, pricing your work, tools worth the cost, and brand deal negotiation.',
+    chapters: 8,
+    href: 'https://socialmate.studio/guides/content-creator-business',
+    tag: 'Business',
+  },
+  {
+    vol: 'Vol. 10',
+    title: 'AI Tools for Creators: The Complete 2026 Handbook',
+    desc: 'The full AI stack for 2026 — ideation, writing, visuals and video, scheduling, analytics, and the human thing no model can replace.',
+    chapters: 9,
+    href: 'https://socialmate.studio/guides/ai-tools-for-creators-2026',
+    tag: 'AI Tools',
+  },
 ]
 
 export default function GuidesPage() {
