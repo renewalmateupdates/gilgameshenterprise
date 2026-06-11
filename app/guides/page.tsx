@@ -99,8 +99,10 @@ export default function GuidesPage() {
             <span className="font-black text-white tracking-tight hidden sm:block">Gilgamesh Enterprise</span>
           </Link>
           <div className="flex gap-5 text-sm">
-            <Link href="/blog" className="text-gray-400 hover:text-[#d4a017] transition-colors">Blog</Link>
+            <Link href="/#ventures" className="text-gray-400 hover:text-[#d4a017] transition-colors hidden sm:block">Ventures</Link>
             <Link href="/guides" className="text-[#d4a017] font-semibold">Guides</Link>
+            <Link href="/blog" className="text-gray-400 hover:text-[#d4a017] transition-colors">Blog</Link>
+            <Link href="/faq" className="text-gray-400 hover:text-[#d4a017] transition-colors hidden sm:block">FAQ</Link>
           </div>
         </div>
       </nav>

@@ -70,13 +70,13 @@ export default function Home() {
             />
             <span className="font-bold text-sm tracking-wide text-[#c9a84c] hidden sm:block">GILGAMESH ENTERPRISE</span>
           </div>
-          <div className="flex items-center gap-6 text-sm text-gray-400">
+          <div className="flex items-center gap-4 sm:gap-6 text-sm text-gray-400">
             <a href="#ventures" className="hover:text-[#c9a84c] transition-colors">Ventures</a>
-            <Link href="/storefront-studio" className="hover:text-[#c9a84c] transition-colors">Storefront Studio</Link>
-            <Link href="/portfolio" className="hover:text-[#c9a84c] transition-colors">Portfolio</Link>
-            <Link href="/guides" className="hover:text-[#c9a84c] transition-colors">Guides</Link>
-            <Link href="/blog" className="hover:text-[#c9a84c] transition-colors">Blog</Link>
-            <Link href="/faq" className="hover:text-[#c9a84c] transition-colors">FAQ</Link>
+            <Link href="/storefront-studio" className="hover:text-[#c9a84c] transition-colors hidden md:block">Storefront Studio</Link>
+            <Link href="/portfolio" className="hover:text-[#c9a84c] transition-colors hidden sm:block">Portfolio</Link>
+            <Link href="/guides" className="hover:text-[#c9a84c] transition-colors hidden sm:block">Guides</Link>
+            <Link href="/blog" className="hover:text-[#c9a84c] transition-colors hidden md:block">Blog</Link>
+            <Link href="/faq" className="hover:text-[#c9a84c] transition-colors hidden sm:block">FAQ</Link>
             <a href="#contact" className="hover:text-[#c9a84c] transition-colors">Contact</a>
           </div>
         </div>
