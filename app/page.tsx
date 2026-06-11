@@ -35,6 +35,14 @@ const VENTURES = [
     badge: 'Live',
   },
   {
+    name: 'Grants Finder',
+    url: 'https://socialmate.studio/grants',
+    color: '#5bc0a8',
+    tag: 'Free Tool',
+    desc: 'Search live U.S. federal grant opportunities from grants.gov — for individuals, small businesses, and nonprofits. Free, no account required.',
+    badge: 'Live',
+  },
+  {
     name: 'Storefront Studio',
     url: '/storefront-studio',
     color: '#5b9bd5',
