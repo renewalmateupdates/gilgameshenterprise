@@ -19,11 +19,11 @@ export default function BlogPage() {
             <span className="font-black text-white tracking-tight hidden sm:block">Gilgamesh Enterprise</span>
           </Link>
           <div className="flex gap-5 text-sm">
-            <Link href="/#ventures" className="text-gray-400 hover:text-[#d4a017] transition-colors">Ventures</Link>
+            <Link href="/#ventures" className="text-gray-400 hover:text-[#d4a017] transition-colors hidden sm:block">Ventures</Link>
             <Link href="/guides" className="text-gray-400 hover:text-[#d4a017] transition-colors">Guides</Link>
             <Link href="/blog" className="text-[#d4a017] font-semibold">Blog</Link>
-            <Link href="/faq" className="text-gray-400 hover:text-[#d4a017] transition-colors">FAQ</Link>
-            <Link href="/#contact" className="text-gray-400 hover:text-[#d4a017] transition-colors">Contact</Link>
+            <Link href="/faq" className="text-gray-400 hover:text-[#d4a017] transition-colors hidden sm:block">FAQ</Link>
+            <Link href="/#contact" className="text-gray-400 hover:text-[#d4a017] transition-colors hidden sm:block">Contact</Link>
           </div>
         </div>
       </nav>
