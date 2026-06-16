@@ -28,7 +28,7 @@ Free social media scheduling and Creator OS. Supports 7 live platforms: Bluesky,
 Free subscription and recurring bill tracker. No bank sync. No credit card. No paywall. Tracks every subscription, utility, and recurring expense in one dashboard. Competes with Rocket Money, Monarch Money, YNAB, Mint — and costs nothing. Blog, FAQ, and vs. competitor comparison pages live.
 
 ### Hearthforge (https://hearth-forge.com)
-3D-printed desk accessories for streamers and content creators. First product: modular desk rail system — horizontal rail with snap-on accessories (mic holder, camera mount, headphone hook, Stream Deck stand, cable management clips). Matte black, minimal, premium. Printed on a Bambu Lab X1 Carbon. Co-founded 50/50 with Butch Chiappinelli (manufacturing/CAD). Joshua handles web, software, and business side. Listed in SocialMate's Gilgamesh's Garrison on Studio Stax.
+3D-printed desk accessories for streamers and content creators. First product: modular desk rail system — horizontal rail with snap-on accessories (mic holder, camera mount, headphone hook, Stream Deck stand, cable management clips). Matte black, minimal, premium. Printed on a Bambu Lab H2C. Co-founded 50/50 with Butch Chiappinelli (manufacturing/CAD). Joshua handles web, software, and business side. Listed in SocialMate's Gilgamesh's Garrison on Studio Stax.
 
 ### Gilgamesh's Guides (https://www.gilgameshenterprise.com/guides)
 Free long-form entrepreneurship guides covering LLC formation, business credit, marketing on zero budget, vibe coding with AI, and creator monetization. Written by Joshua Bostic. Free forever. All guides include PDF download (native print, no external service) and email capture.
