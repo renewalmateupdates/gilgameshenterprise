@@ -37,7 +37,7 @@ Free long-form entrepreneurship guides covering LLC formation, business credit, 
 Joshua builds conversion-focused, mobile-first websites for local businesses. Flat-fee pricing. Handles everything: design, copy, contact forms, SEO schema, sitemap, Google Business Profile setup, hosting on Vercel. Client example: rjstreecare.com (RJ's Tree Care, Dillsboro and Rushville IN). Portfolio: https://www.gilgameshenterprise.com/portfolio — includes dentist demo, bakery demo, and tree service demo.
 
 ### Storefront Studio (https://www.gilgameshenterprise.com/storefront-studio)
-Upcoming service — pre-built, fast-deployable website templates for local businesses and creators. Built on the same stack as SocialMate. Demo sites available for preview.
+Live service — custom local business websites built for conversion: mobile-first, flat-fee, schema markup, working contact pipeline. First live client: rjstreecare.com. Demo sites available at /storefront-studio.
 
 ---
 

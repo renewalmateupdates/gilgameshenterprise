@@ -23,7 +23,7 @@ const VENTURES = [
     url: 'https://hearth-forge.com',
     color: '#e07b39',
     tag: '3D Products — Partnership',
-    desc: 'Co-founded with Butch Chiappinelli. Modular 3D-printed desk rail systems for streamers and content creators. Matte black, precision-made, modular. Joshua handles web and business; Butch handles manufacturing on a Bambu Lab X1 Carbon.',
+    desc: 'Co-founded with Butch Chiappinelli. Modular 3D-printed desk rail systems for streamers and content creators. Matte black, precision-made, modular. Joshua handles web and business; Butch handles manufacturing on a Bambu Lab H2C.',
     badge: 'Live',
   },
   {
@@ -279,7 +279,7 @@ export default function Home() {
           </a>
           <div className="mt-6 flex justify-center gap-6 text-sm text-gray-600">
             <a href="https://socialmate.studio" target="_blank" rel="noopener noreferrer" className="hover:text-[#c9a84c] transition-colors">SocialMate</a>
-            <a href="https://renewalmate.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#c9a84c] transition-colors">RenewalMate</a>
+            <a href="https://www.renewalmate.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#c9a84c] transition-colors">RenewalMate</a>
             <a href="https://socialmate.studio/guides" target="_blank" rel="noopener noreferrer" className="hover:text-[#c9a84c] transition-colors">Guides</a>
           </div>
         </div>
