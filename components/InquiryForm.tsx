@@ -39,7 +39,7 @@ export default function InquiryForm() {
         <div className="text-4xl mb-4">✓</div>
         <h3 className="text-xl font-black text-white mb-2">Got it — we'll be in touch.</h3>
         <p className="text-gray-400 text-sm leading-relaxed max-w-sm mx-auto">
-          Expect a reply within 1 business day. If it's urgent, email directly at{' '}
+          Expect a reply within 3–5 business days. If it's urgent, email directly at{' '}
           <a href="mailto:gilgameshenterprisellc@gmail.com" className="text-[#c9a84c]">
             gilgameshenterprisellc@gmail.com
           </a>.
@@ -150,7 +150,7 @@ export default function InquiryForm() {
       </button>
 
       <p className="text-center text-gray-600 text-xs">
-        No obligation. We reply within 1 business day.
+        No obligation. We reply within 3–5 business days.
       </p>
     </form>
   )
