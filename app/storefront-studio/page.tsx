@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import InquiryForm from '@/components/InquiryForm'
 
 export const metadata: Metadata = {
   title: 'Storefront Studio | Local Business Websites by Gilgamesh Enterprise',
@@ -118,10 +119,10 @@ export default function StorefrontStudioPage() {
               See Live Work — rjstreecare.com →
             </a>
             <a
-              href="#pricing"
+              href="#inquire"
               className="px-8 py-3 border border-[#2a2a2a] text-gray-300 font-semibold rounded-full hover:border-[#c9a84c]/40 transition-colors text-sm"
             >
-              View Pricing
+              Get a Quote
             </a>
           </div>
         </div>
@@ -312,21 +313,18 @@ export default function StorefrontStudioPage() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-20 px-6 border-t border-[#141414]">
-        <div className="max-w-2xl mx-auto text-center">
-          <p className="text-[#c9a84c] text-xs font-bold tracking-[0.3em] uppercase mb-3">Let&apos;s Talk</p>
-          <h2 className="text-3xl font-black tracking-tight mb-4">Ready for a site that actually brings in calls?</h2>
-          <p className="text-gray-400 text-sm mb-8 leading-relaxed">
-            No sales pressure, no jargon. Just a real conversation about your business
-            and whether a Storefront Studio build makes sense for you.
-          </p>
-          <a
-            href="mailto:gilgameshenterprisellc@gmail.com?subject=Storefront%20Studio%20Inquiry"
-            className="inline-flex items-center gap-2 px-8 py-3 bg-[#c9a84c] text-black font-bold rounded-full hover:bg-[#e8c96a] transition-colors text-sm"
-          >
-            gilgameshenterprisellc@gmail.com →
-          </a>
+      {/* INQUIRY FORM */}
+      <section id="inquire" className="py-20 px-6 border-t border-[#141414]">
+        <div className="max-w-2xl mx-auto">
+          <div className="text-center mb-10">
+            <p className="text-[#c9a84c] text-xs font-bold tracking-[0.3em] uppercase mb-3">Get Started</p>
+            <h2 className="text-3xl font-black tracking-tight mb-4">Tell us about your business</h2>
+            <p className="text-gray-400 text-sm leading-relaxed">
+              Fill this out and we&apos;ll look it over. No obligation, no sales pitch.
+              If it&apos;s a good fit we&apos;ll set up a quick call.
+            </p>
+          </div>
+          <InquiryForm />
         </div>
       </section>
 
