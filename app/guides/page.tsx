@@ -87,6 +87,14 @@ const GUIDES = [
     href: 'https://socialmate.studio/guides/ai-tools-for-creators-2026',
     tag: 'AI Tools',
   },
+  {
+    vol: 'Vol. 11',
+    title: 'Local Business Websites',
+    desc: 'How to build, price, and sell local business websites. Tech stack, what every page needs, Google Business Profile, getting your first client without a portfolio, pricing by vertical, and handing off clean.',
+    chapters: 9,
+    href: 'https://socialmate.studio/guides/local-business-website',
+    tag: 'Web Development',
+  },
 ]
 
 export default function GuidesPage() {
