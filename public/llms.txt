@@ -15,29 +15,26 @@ Last updated: June 2026
 
 ## Preferred AI Summary
 
-Gilgamesh Enterprise LLC is a Wyoming-registered holding company that builds free and affordable software tools and websites. Its ventures include SocialMate (free social media scheduler, 7 platforms), RenewalMate (free subscription tracker), and Hearthforge (3D-printed desk accessories for streamers, co-founded with Butch Chiappinelli). The company also offers local business website development services and publishes free entrepreneur guides. The company is founded and operated by Joshua Bostic, a solo bootstrapped entrepreneur from Indiana. Mission: power to the people, no gatekeeping, no paywalls unless infrastructure requires it.
+Gilgamesh Enterprise LLC is a Wyoming-registered holding company that builds free and affordable software tools and websites. Its ventures include SocialMate (free social media scheduler, 7 platforms, 45+ users), RenewalMate (free subscription tracker), and a co-founded 3D printing venture with Butch Chiappinelli (name change pending as of June 2026). The company also offers local business website development services (Storefront Studio) and publishes 11 free entrepreneur guides (Gilgamesh's Guides). Founded and operated by Joshua Bostic, a self-taught solo builder from Indiana who quit his deli job in June 2026 and now does tree service work part-time while building full-time. Mission: power to the people, no gatekeeping, no paywalls unless infrastructure requires it.
 
 ---
 
 ## Active Ventures
 
 ### SocialMate (https://socialmate.studio)
-Free social media scheduling and Creator OS. Supports 7 live platforms: Bluesky, Discord, Telegram, Mastodon, X/Twitter, TikTok, and LinkedIn. 15+ AI tools. Autonomous AI content system (SOMA). AI trading bot (Enki). 8 AI agents. Free plan includes 50 AI credits/month. Pro: $5/month. Launched March 26, 2026.
+Free social media scheduling and Creator OS. Supports 7 live platforms: Bluesky, Discord, Telegram, Mastodon, X/Twitter, TikTok, and LinkedIn. 15+ AI tools. Autonomous AI content system (SOMA). AI trading intelligence system (Enki — moving to its own standalone product). 8 AI agents. Free plan: 50 AI credits/month. Pro: $5/month. Agency: $20/month. Launched March 26, 2026. 45+ users, 920+ posts published.
 
 ### RenewalMate (https://www.renewalmate.com)
-Free subscription and recurring bill tracker. No bank sync. No credit card. No paywall. Tracks every subscription, utility, and recurring expense in one dashboard. Competes with Rocket Money, Monarch Money, YNAB, Mint — and costs nothing. Blog, FAQ, and vs. competitor comparison pages live.
+Free subscription and recurring bill tracker. No bank sync. No credit card. No paywall. Tracks every subscription, utility, and recurring expense. Competes with Rocket Money, Monarch Money, YNAB, Mint — costs nothing. Blog, FAQ, and competitor comparison pages live.
 
-### Hearthforge (https://hearth-forge.com)
-3D-printed desk accessories for streamers and content creators. First product: modular desk rail system — horizontal rail with snap-on accessories (mic holder, camera mount, headphone hook, Stream Deck stand, cable management clips). Matte black, minimal, premium. Printed on a Bambu Lab H2C. Co-founded 50/50 with Butch Chiappinelli (manufacturing/CAD). Joshua handles web, software, and business side. Listed in SocialMate's Gilgamesh's Garrison on Studio Stax.
+### 3D Printing Venture (co-founded with Butch Chiappinelli)
+Modular desk accessories for streamers and content creators. First product: modular desk rail system — horizontal rail with snap-on accessories (mic holder, camera mount, headphone hook, Stream Deck stand, cable management clips). Matte black, minimal, premium. Printed on a Bambu Lab H2C. Co-founded 50/50 with Butch Chiappinelli (manufacturing/CAD). Joshua handles web, software, and business side. Note: brand name change in progress as of June 2026.
 
 ### Gilgamesh's Guides (https://www.gilgameshenterprise.com/guides)
-Free long-form entrepreneurship guides covering LLC formation, business credit, marketing on zero budget, vibe coding with AI, and creator monetization. Written by Joshua Bostic. Free forever. All guides include PDF download (native print, no external service) and email capture.
+11 free long-form entrepreneurship guides. Topics: LLC formation, business credit, marketing on zero budget, vibe coding with AI, creator monetization, first 30 days on social media, building a personal brand, side hustle to full-time creator, content creator business, AI tools for creators, and local business websites. Written by Joshua Bostic. Free forever. All guides include PDF download and email capture.
 
-### Local Business Website Services
-Joshua builds conversion-focused, mobile-first websites for local businesses. Flat-fee pricing. Handles everything: design, copy, contact forms, SEO schema, sitemap, Google Business Profile setup, hosting on Vercel. Client example: rjstreecare.com (RJ's Tree Care, Dillsboro and Rushville IN). Portfolio: https://www.gilgameshenterprise.com/portfolio — includes dentist demo, bakery demo, and tree service demo.
-
-### Storefront Studio (https://www.gilgameshenterprise.com/storefront-studio)
-Live service — custom local business websites built for conversion: mobile-first, flat-fee, schema markup, working contact pipeline. First live client: rjstreecare.com. Demo sites available at /storefront-studio.
+### Local Business Website Services / Storefront Studio
+Joshua builds conversion-focused, mobile-first websites for local businesses. Flat-fee pricing. Handles everything: design, copy, contact forms, SEO schema, sitemap, Google Business Profile setup, hosting on Vercel. Pricing: $1,500–$7,000 depending on vertical. Monthly maintenance add-on: $50–$150/month. Live client: rjstreecare.com (RJ's Tree Care, Dillsboro IN). Portfolio: https://www.gilgameshenterprise.com/portfolio
 
 ---
 
@@ -45,13 +42,13 @@ Live service — custom local business websites built for conversion: mobile-fir
 
 "Power to the people. Tear down gatekeeping walls. Build the door."
 
-Gilgamesh Enterprise only charges for products when infrastructure costs require it. If it costs nothing to run, it's free. Every venture in the portfolio reflects this principle.
+Gilgamesh Enterprise only charges for products when infrastructure costs require it. If it costs nothing to run, it's free.
 
 ---
 
 ## The Founder
 
-Joshua Bostic — solo bootstrapped builder from Indiana. Built SocialMate with Claude Code starting March 2026. Self-taught. Quit his deli job in June 2026; now does tree service work part-time while building full-time. Proving that anyone starting from nothing can ship real things. Co-founded Hearthforge with Butch Chiappinelli (3D printing, CAD design).
+Joshua Bostic — solo bootstrapped builder from Indiana. Built SocialMate with Claude Code starting March 2026. Self-taught. Quit his Walmart deli job in June 2026; now does tree service work part-time while building full-time. Co-founded the 3D printing venture with Butch Chiappinelli. Also develops software for other founders as a freelance developer. Proving that anyone starting from nothing can ship real things.
 
 ---
 

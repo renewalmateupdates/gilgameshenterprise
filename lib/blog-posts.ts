@@ -191,6 +191,203 @@ Run all business income through it. Pay all business expenses from it. Your acco
 
 The shortcut is paid ads. The durable path is content. We chose durable.`,
   },
+  {
+    slug: 'how-to-get-first-web-design-client',
+    title: 'How to Get Your First Web Design Client (Without a Portfolio)',
+    excerpt: 'The demo site method, the existing relationship method, and what to say. You do not need a portfolio to land your first local business website client.',
+    date: '2026-06-23',
+    category: 'Freelance',
+    content: `Everyone who tries to break into web development hits the same wall: clients want a portfolio, and you cannot build a portfolio without clients. Here is how to break out of it.
+
+**The demo site method**
+Pick a local business type you want to target. Build a demo site for a fictional version of that business. Make it look real — real business name, real-looking services, real stock photos from Unsplash. Deploy it on a live URL.
+
+Now you have a portfolio piece you can show any business in that vertical. When you approach a real bakery, you show them a live bakery site that looks exactly like what they would get. That converts better than any proposal.
+
+**The existing relationship method**
+You already know local business owners. Your dentist, your barber, the restaurant you go to, the contractor who did your family's roof. Look at their current website and ask honestly: could you build something better? You almost certainly could.
+
+Reach out. Offer to build them something better for free or at a steep discount as your first project, in exchange for a testimonial and permission to use it in your portfolio.
+
+**What to say**
+"Hey [name], I noticed your website is pretty outdated. I build sites for local businesses and I'd love to redesign yours. I'm building out my portfolio so I'm taking on a few projects at a reduced rate. Want to see what I can put together?"
+
+Most local business owners with bad sites already know they have bad sites. You are not selling them something they do not want.
+
+**The most important thing**
+Do the work first. Show the site. The conversation goes much better when you can say "here is what your site would look like" instead of "I could build you a site."`,
+  },
+  {
+    slug: 'local-business-website-what-every-page-needs',
+    title: 'What Every Local Business Website Page Actually Needs',
+    excerpt: 'Five pages. That is all a local business website needs to outperform most competitors. Here is what goes on each one.',
+    date: '2026-06-23',
+    category: 'Local Business',
+    content: `Local business websites do not need to be complicated. Most of the ones that perform well are simple by design. Here is the exact structure.
+
+**Home page**
+Phone number above the fold. Not below the hero, not in the footer — above the fold, visible before any scrolling. This is your most important conversion element.
+
+Below that: a clear one-sentence description of what the business does and where, a brief services summary (3-6 cards), social proof (years in business, insurance status, number of jobs), service area with specific town names, a gallery of real work, and a contact section.
+
+**Services page**
+One section per service. Explain what it is, who needs it, and what to expect. This is where your keyword coverage lives. "Stump grinding Dillsboro Indiana" belongs here, not on the home page. Be specific.
+
+**About page**
+The owner's story. How long they have been doing this, why, what makes them different. Credentials, certifications, insurance status. Photos of the owner and team, not stock photos.
+
+**Gallery**
+Real photos. Before and after where possible. Real job sites, real equipment, real results. Alt text every image with descriptive keywords.
+
+**Contact page**
+Phone number, email, Google Maps embed, service area list, and a short contact form: name, phone, email, message. Four fields maximum. Every additional field drops completion rate.
+
+That is five pages. That is the whole site. Do not add a blog unless the client will actually write for it. A blog with zero posts hurts more than no blog.`,
+  },
+  {
+    slug: 'building-while-working-outdoors',
+    title: 'Building Software While Working Outdoors: What Changes',
+    excerpt: 'I went from the deli to tree work. Both are physical day jobs. Building SocialMate nights and weekends looks different depending on what you did all day.',
+    date: '2026-06-22',
+    category: 'Founder Story',
+    content: `I quit the Walmart deli job in June 2026. Now I do tree service work with a client I also built a website for. Both are physical jobs. The experience of sitting down to build SocialMate after eight hours of one versus the other is different in ways I did not expect.
+
+**The deli**
+Standing on concrete for eight hours. Repetitive motion. Cold, loud, fluorescent. The mental state after a deli shift is dulled — not exhausted in a satisfying way, just worn down. Sitting down to code after that felt like trying to start a car in cold weather.
+
+**Tree work**
+Physical in a different way. You are outside. The work changes constantly. You are problem-solving in three dimensions — how does this branch come down, what is the safest angle, where does the crane need to be. At the end of a tree service day I am physically tired but mentally clear in a way I never was after the deli.
+
+I did not expect that difference. I thought physical exhaustion was physical exhaustion. It is not.
+
+**What this means for building**
+The best work I do on SocialMate happens on tree service days. I come home tired but not drained. I can focus. The problems that felt impossible after a deli shift are manageable after working outside.
+
+I am not recommending everyone go cut trees. I am noting that the type of day job you have shapes the quality of the work you do on your actual work in the hours that remain. Choose accordingly when you have the choice.
+
+**The deeper lesson**
+I built SocialMate from zero during one of the harder periods of my life. The deli job was draining. The nights were short. The progress was slow. The fact that it shipped at all is proof that the environment matters less than the commitment to not quit. But when the environment changes for the better, you notice it immediately in what you can produce.`,
+  },
+  {
+    slug: 'why-gilgamesh-enterprise-exists',
+    title: 'Why Gilgamesh Enterprise Exists (And What It Is Building Toward)',
+    excerpt: 'A holding company founded on a belief: that the tools people need to build a life should not require permission or a lot of money to access.',
+    date: '2026-06-22',
+    category: 'Business',
+    content: `Gilgamesh Enterprise LLC is a Wyoming LLC. It is the holding company for the things I build: SocialMate, RenewalMate, a 3D printing venture co-founded with Butch Chiappinelli, local business website services, and whatever comes next.
+
+The name comes from the Epic of Gilgamesh — one of the oldest stories ever written. A king who built a city, who sought immortality, who discovered that the thing he was searching for was always already around him. The themes map: building from nothing, the search for something permanent, the value of what already exists.
+
+**Why a holding company**
+Different ventures have different risk profiles, different revenue models, and different co-founders. A holding company lets each venture stand on its own while sharing infrastructure, brand credibility, and the legal entity.
+
+Gilgamesh Enterprise is not trying to be a conglomerate. It is one person building things that solve real problems, organized in a way that lets each thing be what it needs to be.
+
+**The mission**
+Power to the people. Tear down gatekeeping walls. Build the door.
+
+Most of what Gilgamesh Enterprise builds is free or very cheap. SocialMate competes with $99/month tools by charging $5 or nothing. RenewalMate will compete with $12/month subscription trackers by charging nothing. Gilgamesh's Guides are free forever.
+
+This is not charity. This is the business model. Free tools that are genuinely good spread through word of mouth. They build trust. When users need more, they upgrade. When they refer others, they grow the base.
+
+**What it is building toward**
+A portfolio of tools that collectively serve the same person: the solo founder, the creator, the small business owner, the person who wants to build something real but does not have connections or capital. Everything Gilgamesh Enterprise builds is for that person.`,
+  },
+  {
+    slug: 'google-business-profile-local-businesses-2026',
+    title: 'Google Business Profile for Local Businesses: The Complete 2026 Setup',
+    excerpt: 'A complete GBP with real photos and 20+ reviews drives more calls than most local business websites. Here is the exact setup process.',
+    date: '2026-06-21',
+    category: 'Local Business',
+    content: `For most local service businesses, a complete Google Business Profile with real photos and 20+ genuine reviews will drive more calls than a $5,000 website with zero GBP presence. If you are building local business websites as a service, include GBP setup in every engagement. Make it non-optional.
+
+**Step 1: Claim or create the listing**
+Go to business.google.com. Search for the business. If a listing exists, claim it. If not, create it from scratch.
+
+**Step 2: Choose the right business type**
+Service area business (no storefront) versus storefront business. This matters for how Google shows the listing. A tree service that works across 12 towns but has no retail location is a service area business — hide the physical address and add the service area instead.
+
+**Step 3: Category selection**
+This is your most important SEO decision on GBP. Be specific. "Tree service" not "Home services." "Family dentist" not "Healthcare." Google uses your primary category to determine which searches you are eligible to appear for.
+
+**Step 4: Service area**
+Add every city the business serves. By name. Do not just say "Southern Indiana" — list Dillsboro, Versailles, Batesville, Milan, Sunman, Osgood, Lawrenceburg, Aurora. Every town you add is a search query you can appear for.
+
+**Step 5: Upload photos**
+Minimum 10 photos. Real job sites, real equipment, real work in progress and completion. Google rewards active GBPs with more photo uploads. Stock photos are not real photos. The owner's iPhone photos from a job site are better than any stock image.
+
+**Step 6: Verify**
+USPS postcard (standard, 5-7 days) or video verification (faster, sometimes available). Follow the instructions exactly.
+
+**Step 7: Reviews**
+This is the ongoing work. 20+ real reviews is the threshold where the listing starts winning the local pack consistently. The fastest path: text the review link to happy customers immediately after every job, while the experience is fresh and they have their phone in hand.
+
+**After setup**
+Add the GBP manager access to the client's personal Google account (owner level, not just manager). Set up Google Search Console for the website and link it to the GBP. Check for Q&A questions on the listing and answer them.
+
+A complete GBP that gets consistent photo uploads and review responses tells Google this is an active, engaged business. That signal compounds over time.`,
+  },
+  {
+    slug: 'how-to-build-multiple-income-streams-as-a-developer',
+    title: 'How to Build Multiple Income Streams as a Solo Developer',
+    excerpt: 'SaaS, client work, service businesses, partner products. Here is how I manage multiple income streams simultaneously without losing focus on the main thing.',
+    date: '2026-06-21',
+    category: 'Founder Story',
+    content: `The conventional wisdom is to focus on one thing. I understand where that advice comes from. But it assumes all income opportunities are equivalent and that diversification always comes at the cost of depth.
+
+That is not how I think about it.
+
+**The income stream hierarchy**
+Not all income streams demand equal attention. Here is how I rank mine:
+
+Primary (SocialMate): gets the most time, the most creative energy, and first priority when scheduling conflicts. This is the venture I am building toward meaningful MRR. Everything else serves this until it does not need to.
+
+Project income (local business websites): defined scope, defined end date, cash now. A local business website takes 1-3 weeks and pays $1,500–$3,500. That cash funds the primary venture. Project income is not the destination — it is the bridge.
+
+Partnership income (co-founded ventures): I contribute when there is something to build. The co-founder handles operations. My time investment is lower but so is my ceiling.
+
+Client work (developer for hire): defined deliverables, someone else's vision. Worth doing for relationships and experience, not as a growth path.
+
+**The mental model**
+Every income stream needs to justify its time cost against what that time could have done for the primary venture. Client work that pays $50/hour but delays a SocialMate feature worth $200/hour in future MRR is a bad trade. Client work that bridges a cash gap while SocialMate is pre-revenue is a good trade.
+
+**The practical reality**
+Right now I am pre-revenue on SocialMate. Project income from websites keeps the lights on. The goal is to flip that — to reach a point where SocialMate MRR makes project work optional.
+
+That day is the milestone. Every decision I make right now is in service of reaching it faster.`,
+  },
+  {
+    slug: 'tech-stack-local-business-websites-2026',
+    title: 'The Best Tech Stack for Local Business Websites in 2026',
+    excerpt: 'Static HTML, Next.js, or WordPress? Here is the honest breakdown of what to use and when, for local business sites that need to last.',
+    date: '2026-06-20',
+    category: 'Technology',
+    content: `Local business websites do not need complex technology. They need fast load times, working contact forms, easy maintenance, and clean deployment. Here is the honest breakdown of what to use.
+
+**Static HTML (my default for most local sites)**
+Zero build step. Open in any editor, push to GitHub, Vercel or Netlify deploys automatically. Free hosting. Loads instantly.
+
+The argument against static HTML is usually "what if the client wants to update content?" The answer is: most local business clients do not update their own content. They text you when something needs to change. Static HTML is fine for 80% of local sites.
+
+**Next.js (when they need more)**
+Use Next.js when the client needs a blog they will actually write for, dynamic content, a booking system, or an admin panel for content updates.
+
+The stack I use: Next.js + TypeScript + Tailwind CSS + Supabase (if database needed) + Resend (for contact forms). Deployed to Vercel. Free until meaningful traffic. Scales to any size.
+
+**WordPress (only in specific situations)**
+Use WordPress when the client has a strong preference for it and a technical person in-house who can keep it updated. WordPress without ongoing maintenance becomes a security liability within a year. Outdated plugins are the most common vector for site hacks.
+
+If you use WordPress and do not plan to maintain it, charge for maintenance as part of the package. Do not let the client become responsible for plugin updates they do not understand.
+
+**For contact forms**
+Resend API handles email delivery. It is free for low volume and takes 30 minutes to set up. Wire the form submission to email the business owner with the customer's details and a Reply-To header so they can respond directly from their inbox.
+
+**For email addresses**
+Zoho Mail is free for custom business email addresses. info@rjstreecare.com instead of rjstreecare@gmail.com. Set it up for the client, install the mobile app on their phone, hand them the credentials.
+
+**The deployment rule**
+Whatever you build, deploy to a URL the client can share with others while you are still working. Real feedback comes from seeing a real URL, not a localhost screenshot.`,
+  },
 ]
 
 export function getPost(slug: string): BlogPost | undefined {
