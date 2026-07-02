@@ -95,6 +95,30 @@ const GUIDES = [
     href: 'https://socialmate.studio/guides/local-business-website',
     tag: 'Web Development',
   },
+  {
+    vol: 'Vol. 12',
+    title: 'Email List Building From Zero',
+    desc: 'Why social followers are rented and email is owned. Lead magnets, free tools (Mailchimp/Brevo/Kit), welcome sequences, opt-in forms, and the consistency system that compounds over time.',
+    chapters: 9,
+    href: 'https://socialmate.studio/guides/email-list-building',
+    tag: 'Email Marketing',
+  },
+  {
+    vol: 'Vol. 13',
+    title: 'SEO for Normal People',
+    desc: 'Get found on Google without paying anyone $3,000 a month. Free keyword research, Google Search Console setup, on-page basics, blog as 5-year assets, backlinks, and when to actually hire someone.',
+    chapters: 9,
+    href: 'https://socialmate.studio/guides/seo-for-beginners',
+    tag: 'SEO',
+  },
+  {
+    vol: 'Vol. 14',
+    title: 'Reddit Marketing Without Getting Banned',
+    desc: 'The platform that hates spam and rewards real people. Karma building, subreddit research, give-first rule, spotting AI writing patterns, disclosure best practices, and long-term compound presence.',
+    chapters: 9,
+    href: 'https://socialmate.studio/guides/reddit-marketing',
+    tag: 'Community Marketing',
+  },
 ]
 
 export default function GuidesPage() {
