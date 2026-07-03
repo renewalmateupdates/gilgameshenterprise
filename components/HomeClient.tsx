@@ -335,7 +335,7 @@ export default function HomeClient() {
 
           {/* Headline block — sweep overlaid on this container */}
           <div className="relative inline-block w-full overflow-hidden">
-            <h1 className="font-display font-extrabold tracking-tight leading-[1.06] text-[clamp(42px,8vw,92px)]">
+            <h1 className="font-display font-extrabold leading-[1.06] text-[clamp(36px,6.5vw,78px)]" style={{ letterSpacing: '-0.04em' }}>
               <motion.span {...fadeUp(0.52)} className="block text-ash">
                 Where ambition
               </motion.span>
@@ -348,17 +348,23 @@ export default function HomeClient() {
               </motion.span>
             </h1>
 
-            {/* Gold sweep — fires once at 1.55s */}
+            {/* Gold sweep — slow repeating shimmer */}
             {!reduced && (
               <motion.div
                 aria-hidden
                 className="absolute inset-0 pointer-events-none z-10"
                 initial={{ x: '-110%' }}
                 animate={{ x: '215%' }}
-                transition={{ delay: 1.55, duration: 0.75, ease: EASE }}
+                transition={{
+                  delay:       1.5,
+                  duration:    2.8,
+                  ease:        EASE,
+                  repeat:      Infinity,
+                  repeatDelay: 6,
+                }}
                 style={{
                   background:
-                    'linear-gradient(90deg, transparent 0%, rgba(234,192,32,0.42) 50%, transparent 100%)',
+                    'linear-gradient(90deg, transparent 0%, rgba(234,192,32,0.38) 50%, transparent 100%)',
                   width: '48%',
                 }}
               />
