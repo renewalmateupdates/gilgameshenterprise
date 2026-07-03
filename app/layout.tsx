@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Outfit, DM_Sans } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import EmberField from '@/components/EmberField'
 import './globals.css'
 
 const outfit = Outfit({
@@ -40,7 +41,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${outfit.variable} ${dmSans.variable} h-full`}>
       <body className="min-h-full flex flex-col bg-ink text-ash font-body">
-        {children}
+        <EmberField />
+        <div className="relative flex flex-col min-h-full" style={{ zIndex: 1 }}>
+          {children}
+        </div>
         <Analytics />
       </body>
     </html>
