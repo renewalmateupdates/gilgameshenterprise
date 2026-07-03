@@ -4,26 +4,6 @@ import { motion, useReducedMotion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
 
-// ── Seeded PRNG (SSR-safe, same values server + client) ─────────────
-function srand(seed: number) {
-  let s = seed
-  return () => {
-    s = (Math.imul(1664525, s) + 1013904223) | 0
-    return (s >>> 0) / 4294967296
-  }
-}
-
-const _r = srand(2026)
-const EMBERS = Array.from({ length: 22 }, (_, i) => ({
-  id:       i,
-  left:     _r() * 100,
-  size:     1.5 + _r() * 2.5,
-  opacity:  0.10 + _r() * 0.20,
-  duration: 10 + _r() * 10,
-  delay:    -(_r() * 10),
-  drift:    (_r() - 0.5) * 100,
-}))
-
 // ── Data ─────────────────────────────────────────────────────────────
 const VENTURES = [
   {
@@ -232,7 +212,7 @@ export default function HomeClient() {
         }
 
   return (
-    <div className="min-h-screen bg-ink text-ash font-body antialiased">
+    <div className="min-h-screen text-ash antialiased">
 
       {/* ── NAV ─────────────────────────────────────────────────── */}
       <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/[0.05] bg-ink/80 backdrop-blur-xl">
@@ -277,30 +257,6 @@ export default function HomeClient() {
 
       {/* ── HERO ────────────────────────────────────────────────── */}
       <section className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-16 overflow-hidden">
-
-        {/* Ember field */}
-        {!reduced && (
-          <div
-            className="absolute inset-0 pointer-events-none overflow-hidden"
-            aria-hidden
-          >
-            {EMBERS.map((e) => (
-              <div
-                key={e.id}
-                className="absolute bottom-0 rounded-full"
-                style={{
-                  left:            `${e.left}%`,
-                  width:           e.size,
-                  height:          e.size,
-                  opacity:         e.opacity,
-                  backgroundColor: '#D4A017',
-                  animation:       `ember-rise ${e.duration}s linear ${e.delay}s infinite`,
-                  '--drift':       `${e.drift}px`,
-                } as React.CSSProperties}
-              />
-            ))}
-          </div>
-        )}
 
         {/* Radial ambient glow */}
         <div
