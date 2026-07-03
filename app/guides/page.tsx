@@ -123,8 +123,8 @@ const GUIDES = [
 
 export default function GuidesPage() {
   return (
-    <div className="min-h-screen bg-[#0a0a0a]">
-      <nav className="sticky top-0 z-50 bg-[#0a0a0a]/90 backdrop-blur-md border-b border-white/10">
+    <div className="min-h-screen">
+      <nav className="sticky top-0 z-50 bg-ink/80 backdrop-blur-md border-b border-white/10">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <img src="/logo.png" alt="GCE" className="w-8 h-8 rounded-lg" />
