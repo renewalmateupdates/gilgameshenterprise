@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
-import { Syne, DM_Sans } from 'next/font/google'
+import { Outfit, DM_Sans } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const syne = Syne({
+const outfit = Outfit({
   subsets:  ['latin'],
-  weight:   ['400', '600', '700', '800'],
-  variable: '--font-syne',
+  weight:   ['400', '600', '700', '800', '900'],
+  variable: '--font-outfit',
   display:  'swap',
 })
 
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${syne.variable} ${dmSans.variable} h-full`}>
+    <html lang="en" className={`${outfit.variable} ${dmSans.variable} h-full`}>
       <body className="min-h-full flex flex-col bg-ink text-ash font-body">
         {children}
         <Analytics />

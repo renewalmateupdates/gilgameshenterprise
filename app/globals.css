@@ -9,7 +9,7 @@
   --color-ash:         #F2E8C8;
   --color-stone:       #6B6048;
 
-  --font-display: var(--font-syne), 'Syne', system-ui, sans-serif;
+  --font-display: var(--font-outfit), 'Outfit', system-ui, sans-serif;
   --font-body:    var(--font-dm-sans), 'DM Sans', system-ui, sans-serif;
 }
 
