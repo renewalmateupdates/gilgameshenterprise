@@ -77,9 +77,9 @@ const PROCESS = [
 
 export default function StorefrontStudioPage() {
   return (
-    <div className="min-h-screen bg-[#080808] text-[#f0f0f0]">
+    <div className="min-h-screen">
       {/* NAV */}
-      <nav className="sticky top-0 z-50 bg-[#080808]/90 backdrop-blur-md border-b border-[#1e1e1e]">
+      <nav className="sticky top-0 z-50 bg-ink/80 backdrop-blur-md border-b border-[#1e1e1e]">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
             <img src="/logo.png" alt="Gilgamesh Enterprise" className="w-8 h-8 rounded-lg" />
