@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { shopUrl } from '@/lib/shop'
 import type { Metadata } from 'next'
 import InquiryForm from '@/components/InquiryForm'
 
@@ -90,6 +91,7 @@ export default function StorefrontStudioPage() {
             <Link href="/storefront-studio" className="text-[#c9a84c] font-semibold">Storefront Studio</Link>
             <Link href="/blog" className="hover:text-[#c9a84c] transition-colors hidden sm:block">Blog</Link>
             <Link href="/faq" className="hover:text-[#c9a84c] transition-colors hidden sm:block">FAQ</Link>
+            <a href={shopUrl('nav')} className="hover:text-[#c9a84c] transition-colors">Shop</a>
           </div>
         </div>
       </nav>
@@ -338,6 +340,7 @@ export default function StorefrontStudioPage() {
           <div className="flex gap-5 text-xs text-gray-600">
             <Link href="/" className="hover:text-[#c9a84c] transition-colors">Home</Link>
             <Link href="/faq" className="hover:text-[#c9a84c] transition-colors">FAQ</Link>
+            <a href={shopUrl('footer')} className="hover:text-[#c9a84c] transition-colors">Shop</a>
             <a href="mailto:gilgameshenterprisellc@gmail.com" className="hover:text-[#c9a84c] transition-colors">
               Contact
             </a>

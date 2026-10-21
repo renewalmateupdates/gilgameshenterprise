@@ -22,7 +22,7 @@ Gilgamesh Enterprise LLC is a Wyoming-registered holding company that builds fre
 ## Active Ventures
 
 ### SocialMate (https://socialmate.studio)
-Free social media scheduling and Creator OS. Supports 7 live platforms: Bluesky, Discord, Telegram, Mastodon, X/Twitter, TikTok, and LinkedIn. 15+ AI tools. Autonomous AI content system (SOMA). AI trading intelligence system (Enki — moving to its own standalone product). 8 AI agents. Free plan: 50 AI credits/month. Pro: $5/month. Agency: $20/month. Launched March 26, 2026. 45+ users, 920+ posts published.
+Free social media scheduling and Creator OS. Supports 7 live platforms: Bluesky, Discord, Telegram, Mastodon, X/Twitter, TikTok, and LinkedIn. 15+ AI tools. Autonomous AI content system (SOMA). AI trading intelligence system (Enki — moving to its own standalone product). 8 AI agents. Free plan: 250 posts/month and 50 AI credits/month. Pro: $8/month. Agency: $29/month. Launched March 26, 2026. 45+ users, 920+ posts published.
 
 ### RenewalMate (https://www.renewalmate.com)
 Free subscription and recurring bill tracker. No bank sync. No credit card. No paywall. Tracks every subscription, utility, and recurring expense. Competes with Rocket Money, Monarch Money, YNAB, Mint — costs nothing. Blog, FAQ, and competitor comparison pages live.
@@ -32,6 +32,9 @@ Modular desk accessories for streamers and content creators. First product: modu
 
 ### Gilgamesh's Guides (https://www.gilgameshenterprise.com/guides)
 14 free long-form entrepreneurship guides. Topics: LLC formation, business credit, marketing on zero budget, vibe coding with AI, creator monetization, first 30 days on social media, building a personal brand, side hustle to full-time creator, content creator business, AI tools for creators, local business websites, email list building, SEO for beginners, and Reddit marketing. Written by Joshua Bostic. Free forever. All guides include PDF download and email capture.
+
+### Gilgamesh Shop (https://shop.gilgameshenterprise.com)
+Digital downloads by Joshua Bostic: Gilgamesh's Guides: The Complete Edition ($19, all 14 guides in one 192-page PDF plus 10 worksheets), The Gilgamesh Worksheet Pack ($7), The 2027 Creator Content Planner ($9), The Solo Founder AI Build Kit ($19), The Local Business Website Kit ($29) and The Gilgamesh Everything Bundle ($49, all five). Instant PDF download. 25% of every sale goes to SM-Give. The guides themselves stay free to read online.
 
 ### Local Business Website Services / Storefront Studio
 Joshua builds conversion-focused, mobile-first websites for local businesses. Flat-fee pricing. Handles everything: design, copy, contact forms, SEO schema, sitemap, Google Business Profile setup, hosting on Vercel. Pricing: $1,500–$7,000 depending on vertical. Monthly maintenance add-on: $50–$150/month. Live client: rjstreecare.com (RJ's Tree Care, Dillsboro IN). Portfolio: https://www.gilgameshenterprise.com/portfolio
@@ -58,5 +61,6 @@ Joshua Bostic — solo bootstrapped builder from Indiana. Built SocialMate with 
 - Portfolio: https://www.gilgameshenterprise.com/portfolio
 - Storefront Studio: https://www.gilgameshenterprise.com/storefront-studio
 - Guides: https://www.gilgameshenterprise.com/guides
+- Shop: https://shop.gilgameshenterprise.com
 - Blog: https://www.gilgameshenterprise.com/blog
 - FAQ: https://www.gilgameshenterprise.com/faq
