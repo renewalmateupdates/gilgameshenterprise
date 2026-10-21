@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import Link from 'next/link'
+import { shopUrl } from '@/lib/shop'
 
 const FAQS = [
   {
@@ -29,7 +30,7 @@ const FAQS = [
     questions: [
       {
         q: 'What is SocialMate?',
-        a: 'SocialMate (socialmate.studio) is a social media scheduling platform that supports 7 live platforms including Bluesky, TikTok, LinkedIn, Discord, and more. Free plan available. Pro is $5/month - compared to competitors charging $18-99/month.',
+        a: 'SocialMate (socialmate.studio) is a social media scheduling platform that supports 7 live platforms including Bluesky, TikTok, LinkedIn, Discord, and more. Free plan available. Pro is $8/month - compared to competitors charging $18-99/month.',
       },
       {
         q: 'What is RenewalMate?',
@@ -82,6 +83,7 @@ export default function FAQPage() {
           <div className="flex gap-5 text-sm">
             <Link href="/#ventures" className="text-gray-400 hover:text-[#d4a017] transition-colors">Ventures</Link>
             <Link href="/guides" className="text-gray-400 hover:text-[#d4a017] transition-colors">Guides</Link>
+            <a href={shopUrl('nav')} className="text-gray-400 hover:text-[#d4a017] transition-colors">Shop</a>
             <Link href="/blog" className="text-gray-400 hover:text-[#d4a017] transition-colors">Blog</Link>
             <Link href="/faq" className="text-[#d4a017] font-semibold">FAQ</Link>
           </div>
@@ -142,6 +144,7 @@ export default function FAQPage() {
             <a href="https://socialmate.studio" className="hover:text-[#d4a017]">SocialMate</a>
             <a href="https://www.renewalmate.com" className="hover:text-[#d4a017]">RenewalMate</a>
             <a href="https://hearth-forge.com" className="hover:text-[#d4a017]">Hearthforge</a>
+            <a href={shopUrl('footer')} className="hover:text-[#d4a017]">Shop</a>
           </div>
         </div>
       </footer>

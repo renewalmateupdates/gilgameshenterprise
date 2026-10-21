@@ -3,6 +3,7 @@
 import { motion, useReducedMotion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
+import { shopUrl } from '@/lib/shop'
 
 // ── Data ─────────────────────────────────────────────────────────────
 const VENTURES = [
@@ -11,7 +12,7 @@ const VENTURES = [
     url:      'https://socialmate.studio',
     tag:      'Creator OS',
     tagColor: '#D4A017',
-    desc:     'Multi-platform social media scheduling and AI-powered content tools. What competitors charge $99/month for — we give for $5 or free.',
+    desc:     'Multi-platform social media scheduling and AI-powered content tools. What competitors charge $99/month for — we give for $8 or free.',
     external: true,
   },
   {
@@ -39,6 +40,14 @@ const VENTURES = [
     external: true,
   },
   {
+    name:     'Gilgamesh Shop',
+    url:      shopUrl('ventures'),
+    tag:      'Digital Products',
+    tagColor: '#EAC020',
+    desc:     'All 14 guides in one PDF, plus printable worksheets, a 2027 content planner and kits for building with AI and selling local business websites. 25% of every sale goes to SM-Give.',
+    external: true,
+  },
+  {
     name:     'Grants Finder',
     url:      'https://socialmate.studio/grants',
     tag:      'Free Tool',
@@ -63,7 +72,7 @@ const PILLARS = [
   },
   {
     title: 'Real Tools',
-    body:  "We build what competitors charge $99/month for and give it to people for $5 or free. Premium tools shouldn't be reserved for people who can already afford them.",
+    body:  "We build what competitors charge $99/month for and give it to people for $8 or free. Premium tools shouldn't be reserved for people who can already afford them.",
   },
   {
     title: 'Built in Public',
@@ -76,6 +85,7 @@ const NAV_LINKS = [
   { label: 'Storefront Studio', href: '/storefront-studio', hide: 'md' },
   { label: 'Portfolio',        href: '/portfolio',          hide: 'sm' },
   { label: 'Guides',           href: '/guides',             hide: 'sm' },
+  { label: 'Shop',             href: shopUrl('nav'),        hide: '' },
   { label: 'Blog',             href: '/blog',               hide: 'md' },
   { label: 'FAQ',              href: '/faq',                hide: 'sm' },
   { label: 'Contact',          href: '#contact',            hide: '' },
@@ -564,6 +574,13 @@ export default function HomeClient() {
               >
                 Guides
               </a>
+              <span aria-hidden>·</span>
+              <a
+                href={shopUrl('contact')}
+                className="hover:text-gold transition-colors"
+              >
+                Shop
+              </a>
             </div>
           </motion.div>
         </div>
@@ -596,6 +613,10 @@ export default function HomeClient() {
             style={{ color: 'rgba(107,96,72,0.42)' }}
           >
             <span>Cheyenne, WY 82001</span>
+            <span aria-hidden>·</span>
+            <a href={shopUrl('footer')} className="hover:text-gold transition-colors">
+              Shop
+            </a>
             <span aria-hidden>·</span>
             <a
               href="mailto:gilgameshenterprisellc@gmail.com"

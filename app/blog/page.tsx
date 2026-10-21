@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { shopUrl } from '@/lib/shop'
 import { BLOG_POSTS } from '@/lib/blog-posts'
 import type { Metadata } from 'next'
 import BlogClient from './BlogClient'
@@ -21,6 +22,7 @@ export default function BlogPage() {
           <div className="flex gap-5 text-sm">
             <Link href="/#ventures" className="text-gray-400 hover:text-[#d4a017] transition-colors hidden sm:block">Ventures</Link>
             <Link href="/guides" className="text-gray-400 hover:text-[#d4a017] transition-colors">Guides</Link>
+            <a href={shopUrl('nav')} className="text-gray-400 hover:text-[#d4a017] transition-colors">Shop</a>
             <Link href="/blog" className="text-[#d4a017] font-semibold">Blog</Link>
             <Link href="/faq" className="text-gray-400 hover:text-[#d4a017] transition-colors hidden sm:block">FAQ</Link>
             <Link href="/#contact" className="text-gray-400 hover:text-[#d4a017] transition-colors hidden sm:block">Contact</Link>
@@ -44,6 +46,7 @@ export default function BlogPage() {
             <a href="https://socialmate.studio" className="hover:text-[#d4a017]">SocialMate</a>
             <a href="https://www.renewalmate.com" className="hover:text-[#d4a017]">RenewalMate</a>
             <a href="https://hearth-forge.com" className="hover:text-[#d4a017]">Hearthforge</a>
+            <a href={shopUrl('footer')} className="hover:text-[#d4a017]">Shop</a>
           </div>
         </div>
       </footer>

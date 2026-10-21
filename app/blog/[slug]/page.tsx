@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import { shopUrl } from '@/lib/shop'
 import { getPost, BLOG_POSTS } from '@/lib/blog-posts'
 import type { Metadata } from 'next'
 
@@ -68,6 +69,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <a href="https://socialmate.studio" className="text-xs font-semibold text-[#d4a017] hover:underline">SocialMate →</a>
             <a href="https://www.renewalmate.com" className="text-xs font-semibold text-[#d4a017] hover:underline">RenewalMate →</a>
             <Link href="/guides" className="text-xs font-semibold text-[#d4a017] hover:underline">Free Guides →</Link>
+            <a href={shopUrl('blog_post')} className="text-xs font-semibold text-[#d4a017] hover:underline">Shop →</a>
           </div>
         </div>
       </article>

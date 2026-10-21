@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { shopUrl } from '@/lib/shop'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -93,6 +94,7 @@ export default function PortfolioPage() {
             <Link href="/storefront-studio" className="hover:text-[#c9a84c] transition-colors hidden sm:block">Storefront Studio</Link>
             <Link href="/portfolio" className="text-[#c9a84c] font-semibold">Portfolio</Link>
             <Link href="/faq" className="hover:text-[#c9a84c] transition-colors hidden sm:block">FAQ</Link>
+            <a href={shopUrl('nav')} className="hover:text-[#c9a84c] transition-colors">Shop</a>
           </div>
         </div>
       </nav>
@@ -269,6 +271,7 @@ export default function PortfolioPage() {
             <Link href="/" className="hover:text-[#c9a84c] transition-colors">Home</Link>
             <Link href="/storefront-studio" className="hover:text-[#c9a84c] transition-colors">Storefront Studio</Link>
             <Link href="/faq" className="hover:text-[#c9a84c] transition-colors">FAQ</Link>
+            <a href={shopUrl('footer')} className="hover:text-[#c9a84c] transition-colors">Shop</a>
           </div>
         </div>
       </footer>

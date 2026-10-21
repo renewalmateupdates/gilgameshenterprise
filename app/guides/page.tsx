@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { shopUrl } from '@/lib/shop'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -133,6 +134,7 @@ export default function GuidesPage() {
           <div className="flex gap-5 text-sm">
             <Link href="/#ventures" className="text-gray-400 hover:text-[#d4a017] transition-colors hidden sm:block">Ventures</Link>
             <Link href="/guides" className="text-[#d4a017] font-semibold">Guides</Link>
+            <a href={shopUrl('nav')} className="text-gray-400 hover:text-[#d4a017] transition-colors">Shop</a>
             <Link href="/blog" className="text-gray-400 hover:text-[#d4a017] transition-colors">Blog</Link>
             <Link href="/faq" className="text-gray-400 hover:text-[#d4a017] transition-colors hidden sm:block">FAQ</Link>
           </div>
@@ -168,7 +170,29 @@ export default function GuidesPage() {
           ))}
         </div>
 
-        <div className="mt-12 bg-[#d4a017]/10 border border-[#d4a017]/20 rounded-2xl p-8 text-center">
+        <div className="mt-12 flex flex-col sm:flex-row items-center gap-7 bg-white/5 border border-[#d4a017]/30 rounded-2xl p-7">
+          <img src="/shop/complete-edition.webp" alt="Cover of Gilgamesh's Guides: The Complete Edition" width={130} height={169} loading="lazy"
+            className="w-[130px] h-auto flex-none rounded-md border border-white/10 shadow-lg shadow-black/40" />
+          <div className="text-center sm:text-left">
+            <p className="text-[#d4a017] text-xs font-bold tracking-[0.3em] uppercase mb-2">Want them offline?</p>
+            <h2 className="text-2xl font-black text-white mb-2">All 14 guides in one PDF</h2>
+            <p className="text-gray-400 text-sm leading-relaxed mb-5">
+              The guides stay free to read. The Complete Edition collects all fourteen in one 192-page PDF, corrected for late 2026, with 10 printable worksheets. 25% of every sale goes to SM-Give.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <a href={shopUrl('guides', '/products/gilgameshs-guides-the-complete-edition')}
+                className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-[#d4a017] px-6 text-sm font-bold text-black hover:bg-[#eac020] transition-colors">
+                Get the Complete Edition, $19
+              </a>
+              <a href={shopUrl('guides')}
+                className="inline-flex min-h-[44px] items-center justify-center rounded-xl border border-white/15 px-6 text-sm font-bold text-white hover:border-[#d4a017]/50 transition-colors">
+                Browse the shop
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-8 bg-[#d4a017]/10 border border-[#d4a017]/20 rounded-2xl p-8 text-center">
           <p className="text-[#d4a017] font-black text-lg mb-2">These guides are free. Always.</p>
           <p className="text-gray-400 text-sm">
             Knowledge shouldn't be gatekept behind a course or a paywall.
@@ -184,6 +208,7 @@ export default function GuidesPage() {
             <a href="https://socialmate.studio" className="hover:text-[#d4a017]">SocialMate</a>
             <a href="https://www.renewalmate.com" className="hover:text-[#d4a017]">RenewalMate</a>
             <Link href="/blog" className="hover:text-[#d4a017]">Blog</Link>
+            <a href={shopUrl('footer')} className="hover:text-[#d4a017]">Shop</a>
           </div>
         </div>
       </footer>
