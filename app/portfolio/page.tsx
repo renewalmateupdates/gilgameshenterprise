@@ -25,11 +25,11 @@ const SHIPPED = [
     stack: ['Next.js', 'Tailwind', 'Vercel'],
   },
   {
-    name: 'Hearthforge',
+    name: 'Raid Ready Labs',
     role: 'Co-Founder — Web & Business',
-    url: 'https://hearth-forge.com',
+    url: 'https://raidreadylabs.com',
     color: '#e07b39',
-    desc: '3D-printed product company, 50/50 partnership with Butch Chiappinelli. Joshua owns the web presence, brand site, business operations, and go-to-market strategy while Butch handles manufacturing and design.',
+    desc: '3D-printed product company (formerly Hearthforge), a partnership with Butch Chiappinelli. Joshua owns the web presence, brand site, business operations, and go-to-market strategy while Butch handles manufacturing and design.',
     stack: ['Next.js', 'Tailwind', 'Vercel'],
   },
   {

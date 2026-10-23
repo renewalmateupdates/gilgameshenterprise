@@ -24,8 +24,8 @@ const VENTURES = [
     external: true,
   },
   {
-    name:     'Hearthforge',
-    url:      'https://hearth-forge.com',
+    name:     'Raid Ready Labs',
+    url:      'https://raidreadylabs.com',
     tag:      '3D Products — Partnership',
     tagColor: '#e07b39',
     desc:     'Co-founded with Butch Chiappinelli. Modular 3D-printed desk rail systems for streamers and content creators. Matte black, precision-made, modular.',

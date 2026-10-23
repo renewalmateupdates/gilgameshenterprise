@@ -25,7 +25,7 @@ Dark/gold professional hub for Joshua Bostic's ventures. Lists: SocialMate, Rene
 
 ## Hard Rules
 
-- **3D printing venture name change pending** — do NOT use "Hearthforge" in any public-facing copy until Joshua + Butch confirm the new name. Say "co-founded 3D printing venture with Butch Chiappinelli."
+- **The 3D printing venture is Raid Ready Labs** (raidreadylabs.com, confirmed July 2026). Hearthforge and hearth-forge.com are retired, and the old domain returns a 404, so never link it. Don't state the equity split in public copy.
 - The venture card must always present it as a **co-founded partnership** (Joshua: web/business · Butch: manufacturing/CAD, Bambu Lab **H2C** — never X1 Carbon).
 - Keep `/guides`, blog posts, and `public/llms.txt` in sync with SocialMate's guide volumes when new volumes ship there.
 - Vercel Analytics is wired in the root layout — don't remove.
