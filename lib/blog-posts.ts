@@ -140,7 +140,7 @@ It\'s not that these tools aren\'t valuable. It\'s that the pricing doesn\'t ref
 
 This isn\'t charity. It\'s a business model that works when you\'re not carrying investor expectations or artificial growth targets.
 
-The ventures we build: SocialMate (free social media scheduler), RenewalMate (free subscription tracker), Hearthforge (affordable physical products for creators), Gilgamesh\'s Guides (free business education).
+The ventures we build: SocialMate (free social media scheduler), RenewalMate (free subscription tracker), Raid Ready Labs (formerly Hearthforge, affordable physical products for creators), Gilgamesh\'s Guides (free business education).
 
 Power to the people. Build the door.`,
   },

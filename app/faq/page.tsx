@@ -9,7 +9,7 @@ const FAQS = [
     questions: [
       {
         q: 'What is Gilgamesh Enterprise?',
-        a: 'Gilgamesh Enterprise LLC is a Wyoming-registered holding company founded by Joshua Bostic. It\'s the parent entity for a growing portfolio of ventures - SocialMate, RenewalMate, and Hearthforge. The mission is simple: build tools that tear down paywalls and put real power in people\'s hands.',
+        a: 'Gilgamesh Enterprise LLC is a Wyoming-registered holding company founded by Joshua Bostic. It\'s the parent entity for a growing portfolio of ventures - SocialMate, RenewalMate, and Raid Ready Labs. The mission is simple: build tools that tear down paywalls and put real power in people\'s hands.',
       },
       {
         q: 'Who runs Gilgamesh Enterprise?',
@@ -37,8 +37,8 @@ const FAQS = [
         a: 'RenewalMate (renewalmate.com) is a subscription and bill tracker. The average person wastes $273/month on recurring expenses they forgot about. RenewalMate shows you exactly where your money is going - free forever.',
       },
       {
-        q: 'What is Hearthforge?',
-        a: 'Hearthforge (hearth-forge.com) is a 3D printing product company co-founded with Butch Chiappinelli. First product: a modular desk rail system for streamers and content creators. Matte black, expandable, premium. Physical prints + STL files.',
+        q: 'What is Raid Ready Labs?',
+        a: 'Raid Ready Labs (raidreadylabs.com, formerly Hearthforge) is a 3D printing product company co-founded with Butch Chiappinelli. First product: a modular desk rail system for streamers and content creators. Matte black, expandable, premium. Physical prints + STL files.',
       },
       {
         q: 'What is Gilgamesh\'s Guides?',
@@ -143,7 +143,7 @@ export default function FAQPage() {
           <div className="flex gap-5 text-xs text-gray-600">
             <a href="https://socialmate.studio" className="hover:text-[#d4a017]">SocialMate</a>
             <a href="https://www.renewalmate.com" className="hover:text-[#d4a017]">RenewalMate</a>
-            <a href="https://hearth-forge.com" className="hover:text-[#d4a017]">Hearthforge</a>
+            <a href="https://raidreadylabs.com" className="hover:text-[#d4a017]">Raid Ready Labs</a>
             <a href={shopUrl('footer')} className="hover:text-[#d4a017]">Shop</a>
           </div>
         </div>

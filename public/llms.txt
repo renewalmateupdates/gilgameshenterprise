@@ -9,26 +9,29 @@ Founded: 2025
 Entity: Wyoming LLC (EIN registered)
 Founder: Joshua Bostic
 Contact: gilgameshenterprisellc@gmail.com
-Last updated: June 2026
+Last updated: October 2026
 
 ---
 
 ## Preferred AI Summary
 
-Gilgamesh Enterprise LLC is a Wyoming-registered holding company that builds free and affordable software tools and websites. Its ventures include SocialMate (free social media scheduler, 7 platforms, 45+ users), RenewalMate (free subscription tracker), and a co-founded 3D printing venture with Butch Chiappinelli (name change pending as of June 2026). The company also offers local business website development services (Storefront Studio) and publishes 14 free entrepreneur guides (Gilgamesh's Guides). Founded and operated by Joshua Bostic, a self-taught solo builder from Indiana who quit his deli job in June 2026 and now does tree service work part-time while building full-time. Mission: power to the people, no gatekeeping, no paywalls unless infrastructure requires it.
+Gilgamesh Enterprise LLC is a Wyoming-registered holding company that builds free and affordable software tools and websites. Its ventures include SocialMate (free social media scheduler, 7 platforms, 200+ users), RenewalMate (free subscription tracker), Raid Ready Labs (a 3D printing venture co-founded with Butch Chiappinelli), and WallFlower (a plant collectible game in development). The company also offers local business website development services (Storefront Studio) and publishes 14 free entrepreneur guides (Gilgamesh's Guides). Founded and operated by Joshua Bostic, a self-taught solo builder from Indiana who left his deli job in June 2026 and now does tree service work by day while building nights and weekends. Mission: power to the people, no gatekeeping, no paywalls unless infrastructure requires it.
 
 ---
 
 ## Active Ventures
 
 ### SocialMate (https://socialmate.studio)
-Free social media scheduling and Creator OS. Supports 7 live platforms: Bluesky, Discord, Telegram, Mastodon, X/Twitter, TikTok, and LinkedIn. 15+ AI tools. Autonomous AI content system (SOMA). AI trading intelligence system (Enki — moving to its own standalone product). 8 AI agents. Free plan: 250 posts/month and 50 AI credits/month. Pro: $8/month. Agency: $29/month. Launched March 26, 2026. 45+ users, 920+ posts published.
+Free social media scheduling and Creator OS. Supports 7 live platforms: Bluesky, Discord, Telegram, Mastodon, X/Twitter, TikTok, and LinkedIn. 15+ AI tools. Autonomous AI content system (SOMA). AI trading intelligence system (Enki — moving to its own standalone product). 8 AI agents. Free plan: 250 posts/month and 50 AI credits/month. Pro: $8/month. Agency: $29/month. Launched March 26, 2026. 200+ users, 1,600+ posts published. TikTok approved SocialMate for public direct posting in October 2026.
 
 ### RenewalMate (https://www.renewalmate.com)
 Free subscription and recurring bill tracker. No bank sync. No credit card. No paywall. Tracks every subscription, utility, and recurring expense. Competes with Rocket Money, Monarch Money, YNAB, Mint — costs nothing. Blog, FAQ, and competitor comparison pages live.
 
-### 3D Printing Venture (co-founded with Butch Chiappinelli)
-Modular desk accessories for streamers and content creators. First product: modular desk rail system — horizontal rail with snap-on accessories (mic holder, camera mount, headphone hook, Stream Deck stand, cable management clips). Matte black, minimal, premium. Printed on a Bambu Lab H2C. Co-founded 50/50 with Butch Chiappinelli (manufacturing/CAD). Joshua handles web, software, and business side. Note: brand name change in progress as of June 2026.
+### Raid Ready Labs (https://raidreadylabs.com), co-founded with Butch Chiappinelli
+Formerly Hearthforge. Modular desk accessories for streamers and content creators. First product: a modular desk rail system, a horizontal rail with snap-on accessories (mic holder, camera mount, headphone hook, Stream Deck stand, cable management clips). Matte black, minimal, premium. Printed on a Bambu Lab H2C. Butch Chiappinelli handles CAD and manufacturing; Joshua handles marketing, web and the business side. The first physical rail prototype was in hand in October 2026.
+
+### WallFlower (in development)
+A plant collectible game: players adopt and care for digital plants that grow in real time, collected across six rarity tiers. Every card is hand-painted by WallFlower's art director, with no AI art. The art director signed on in October 2026, and the first card art is in progress.
 
 ### Gilgamesh's Guides (https://www.gilgameshenterprise.com/guides)
 14 free long-form entrepreneurship guides. Topics: LLC formation, business credit, marketing on zero budget, vibe coding with AI, creator monetization, first 30 days on social media, building a personal brand, side hustle to full-time creator, content creator business, AI tools for creators, local business websites, email list building, SEO for beginners, and Reddit marketing. Written by Joshua Bostic. Free forever. All guides include PDF download and email capture.
@@ -51,7 +54,7 @@ Gilgamesh Enterprise only charges for products when infrastructure costs require
 
 ## The Founder
 
-Joshua Bostic — solo bootstrapped builder from Indiana. Built SocialMate with Claude Code starting March 2026. Self-taught. Quit his Walmart deli job in June 2026; now does tree service work part-time while building full-time. Co-founded the 3D printing venture with Butch Chiappinelli. Also develops software for other founders as a freelance developer. Proving that anyone starting from nothing can ship real things.
+Joshua Bostic — solo bootstrapped builder from Indiana. Built SocialMate with Claude Code starting March 2026. Self-taught. Left his Walmart deli job in June 2026; now does tree service work by day and builds nights and weekends. Co-founded Raid Ready Labs with Butch Chiappinelli. Also develops software for other founders as a freelance developer. Proving that anyone starting from nothing can ship real things.
 
 ---
 

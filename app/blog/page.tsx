@@ -45,7 +45,7 @@ export default function BlogPage() {
           <div className="flex gap-5 text-xs text-gray-600">
             <a href="https://socialmate.studio" className="hover:text-[#d4a017]">SocialMate</a>
             <a href="https://www.renewalmate.com" className="hover:text-[#d4a017]">RenewalMate</a>
-            <a href="https://hearth-forge.com" className="hover:text-[#d4a017]">Hearthforge</a>
+            <a href="https://raidreadylabs.com" className="hover:text-[#d4a017]">Raid Ready Labs</a>
             <a href={shopUrl('footer')} className="hover:text-[#d4a017]">Shop</a>
           </div>
         </div>
