@@ -342,7 +342,7 @@ Not all income streams demand equal attention. Here is how I rank mine:
 
 Primary (SocialMate): gets the most time, the most creative energy, and first priority when scheduling conflicts. This is the venture I am building toward meaningful MRR. Everything else serves this until it does not need to.
 
-Project income (local business websites): defined scope, defined end date, cash now. A local business website takes 1-3 weeks and pays $1,500–$3,500. That cash funds the primary venture. Project income is not the destination — it is the bridge.
+Project income (local business websites): defined scope, defined end date, cash now. A local business website takes 1-3 weeks and pays $1,000–$3,000 or more. That cash funds the primary venture. Project income is not the destination — it is the bridge.
 
 Partnership income (co-founded ventures): I contribute when there is something to build. The co-founder handles operations. My time investment is lower but so is my ceiling.
 

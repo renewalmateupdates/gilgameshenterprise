@@ -60,7 +60,7 @@ const VENTURES = [
     url:      '/storefront-studio',
     tag:      'Web Services',
     tagColor: '#5b9bd5',
-    desc:     'Conversion-focused, mobile-first websites for local businesses. Flat-fee builds starting at $1,500 — see it live at rjstreecare.com.',
+    desc:     'Conversion-focused, mobile-first websites for local businesses. Flat-fee builds from $1,000, with a free sample first. See it live at rjstreecare.com.',
     external: false,
   },
 ] as const
