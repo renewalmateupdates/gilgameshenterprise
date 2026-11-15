@@ -63,7 +63,7 @@ const FAQS = [
       },
       {
         q: 'Do you offer web development services?',
-        a: 'Yes - through Storefront Studio, Gilgamesh Enterprise\'s local business website service. Conversion-focused, mobile-first, flat-fee builds starting around $1,500. Stack: Next.js, Tailwind, Vercel - the same one powering SocialMate. See live work at rjstreecare.com or visit the Storefront Studio page for pricing by industry.',
+        a: 'Yes - through Storefront Studio, Gilgamesh Enterprise\'s local business website service. Conversion-focused, mobile-first, flat-fee builds from $1,000 (Starter), $2,000 (Standard) and $3,000+ (Pro), with a free sample before you pay anything. Optional care plans are $49 or $99 a month. See live work at rjstreecare.com or visit the Storefront Studio page for what each tier includes.',
       },
     ],
   },

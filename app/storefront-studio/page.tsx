@@ -5,74 +5,87 @@ import InquiryForm from '@/components/InquiryForm'
 
 export const metadata: Metadata = {
   title: 'Storefront Studio | Local Business Websites by Gilgamesh Enterprise',
-  description: 'Conversion-focused, mobile-first websites for local businesses. Flat-fee builds starting at $1,500. Built by the team behind SocialMate. See our live work at rjstreecare.com.',
+  description: 'Conversion-focused, mobile-first websites for local businesses. Flat-fee builds from $1,000, with a free sample first. Built by the team behind SocialMate. See our live work at rjstreecare.com.',
 }
 
 const TIERS = [
   {
-    name: 'Trades & Home Services',
-    range: '$1,800 – $3,500',
-    examples: 'Plumbers, electricians, welders, mechanics, tree services, contractors, landscapers',
+    name: 'Starter',
+    range: '$1,000',
+    examples: 'For shops that need to be found and look legit, fast. Live in about 7 days.',
     features: [
-      'Multi-page conversion-focused build',
+      'Up to 5 pages (home, services, about, gallery, contact)',
       'Mobile-first, fast-loading design',
-      'Local SEO + schema markup baked in',
-      'Working contact/quote pipeline wired to your inbox',
-      'Service area pages targeting your real cities and zip codes',
-      'Photo gallery of your actual work',
+      'Contact form that lands in your inbox',
+      'Basic local SEO and Google schema markup',
+      'Linked to your Google Business listing',
+      '1 round of changes',
     ],
     highlight: false,
   },
   {
-    name: 'Medical & Professional',
-    range: '$3,500 – $7,000+',
-    examples: 'Doctors, dentists, specialists, law offices, professional practices',
+    name: 'Standard',
+    range: '$2,000',
+    examples: 'For businesses that want more calls from more towns. Live in about 10 days.',
     features: [
-      'Everything in Trades & Home Services',
-      'Higher-trust design language for patient/client confidence',
-      'Booking and scheduling integration ready',
-      'Insurance, patient info, and credentials pages',
-      'Expanded content and SEO strategy for competitive local markets',
-      'Priority build timeline and revisions',
+      'Everything in Starter',
+      'Up to 10 pages',
+      'A dedicated page for each service you offer',
+      'Service-area page for the towns you cover',
+      'Reviews section and photo gallery of your work',
+      '2 rounds of changes',
     ],
     highlight: true,
   },
   {
-    name: 'Retail & Food',
-    range: '$1,500 – $3,000',
-    examples: 'Bakeries, small retail shops, restaurants, cafes, local makers',
+    name: 'Pro',
+    range: '$3,000+',
+    examples: 'The full build, like rjstreecare.com. Priced to what you need. Live in 2 to 3 weeks.',
     features: [
-      'Conversion-focused, visual-first build',
-      'Menu or product showcase pages',
-      'Online ordering and social links ready to wire in',
-      'Mobile-first, fast-loading design',
-      'Local SEO + schema markup baked in',
-      'Photo gallery built around your actual products',
+      'Everything in Standard',
+      '15 to 20 pages',
+      'Blog with 4 to 6 starter posts written for local search',
+      'Town-by-town SEO for your whole service area',
+      'Extras like booking, menus, emergency pages or quote flows',
+      '3 rounds of changes',
     ],
     highlight: false,
+  },
+]
+
+const CARE = [
+  {
+    name: 'Care',
+    price: '$49/month',
+    desc: 'Hosting, SSL, security updates, keeping your site online, and up to 30 minutes of small edits each month. We check in monthly so your hours and services stay current.',
+  },
+  {
+    name: 'Growth',
+    price: '$99/month',
+    desc: 'Everything in Care, plus a new blog post every month, photo and specials updates, a monthly Google Business post, and a quarterly report on how your site is doing.',
   },
 ]
 
 const PROCESS = [
   {
     step: '01',
-    title: 'Discovery call',
-    desc: 'A real conversation about your business, your customers, and what your current site (or lack of one) is costing you. No sales pitch, just a straight assessment of what you actually need.',
+    title: 'Free sample',
+    desc: 'Tell us about your business with the form below. We build a free sample of your site so you can see exactly what you would get before you pay anything.',
   },
   {
     step: '02',
     title: 'Build',
-    desc: 'Your site gets built on a fast, modern stack (the same one powering SocialMate and our other live products). Mobile-first, conversion-focused, and wired with the SEO fundamentals most cheap builds skip entirely.',
+    desc: 'Half up front, then we build your site on the same fast, modern stack that powers SocialMate. Mobile-first, conversion-focused, with the SEO basics most cheap builds skip.',
   },
   {
     step: '03',
-    title: 'Launch + handoff',
-    desc: 'Your site goes live on your own domain with a working contact pipeline that actually lands leads in your inbox. You get full ownership, not a rented template you lose access to if you stop paying someone else.',
+    title: 'Launch and handoff',
+    desc: 'The other half at launch. Your site goes live on your own domain with a contact form that lands leads in your inbox. You own it, not a rented template you lose if you stop paying.',
   },
   {
     step: '04',
     title: 'Ongoing care (optional)',
-    desc: 'Hosting, maintenance, content updates, new blog posts, and SEO upkeep for $50–$150/month if you want it handled for you. No contract lock-in, cancel anytime.',
+    desc: 'Care ($49/month) or Growth ($99/month) keeps it hosted, updated and growing. No contract lock-in, cancel anytime, and you keep your site and domain.',
   },
 ]
 
@@ -118,7 +131,7 @@ export default function StorefrontStudioPage() {
               rel="noopener noreferrer"
               className="px-8 py-3 bg-[#c9a84c] text-black font-bold rounded-full hover:bg-[#e8c96a] transition-colors text-sm"
             >
-              See Live Work — rjstreecare.com →
+              See Live Work: rjstreecare.com →
             </a>
             <a
               href="#inquire"
@@ -143,9 +156,9 @@ export default function StorefrontStudioPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {[
-              { title: 'Multi-page build', desc: 'Home, services, about, gallery, contact, and more — not a single scrolling page pretending to be a website.' },
+              { title: 'Multi-page build', desc: 'Home, services, about, gallery, contact, and more, not a single scrolling page pretending to be a website.' },
               { title: 'Technical SEO baked in', desc: 'Schema.org markup, geo meta tags, and per-page descriptions so search engines actually understand and rank your business.' },
-              { title: 'Working lead pipeline', desc: 'A contact form that lands real emails in your real inbox — not a form that quietly goes nowhere.' },
+              { title: 'Working lead pipeline', desc: 'A contact form that lands real emails in your real inbox, not a form that quietly goes nowhere.' },
               { title: 'Conversion design', desc: 'Sticky call-to-action bars, clear quote flows, and multiple contact touchpoints designed to turn visitors into calls.' },
               { title: 'Mobile-first', desc: 'Most of your customers are finding you on their phone. Your site is built for that reality first, desktop second.' },
               { title: 'Real local content', desc: 'Service-area pages and content written around the actual cities, zip codes, and search terms your customers use.' },
@@ -166,7 +179,7 @@ export default function StorefrontStudioPage() {
             <p className="text-[#c9a84c] text-xs font-bold tracking-[0.3em] uppercase mb-3">Flat-Fee Pricing</p>
             <h2 className="text-4xl font-black tracking-tight">One price. No surprises.</h2>
             <p className="text-gray-500 mt-3 max-w-xl mx-auto text-sm leading-relaxed">
-              Pricing is grounded in real, delivered scope — benchmarked against rjstreecare.com,
+              Pricing is grounded in real, delivered scope, benchmarked against rjstreecare.com:
               a live, full-featured site currently bringing in real leads for a real local business.
             </p>
           </div>
@@ -201,97 +214,23 @@ export default function StorefrontStudioPage() {
             ))}
           </div>
 
-          <div className="mt-8 bg-[#0f0f0f] border border-[#1e1e1e] rounded-2xl p-7 text-center">
-            <h3 className="font-black text-white text-lg mb-2">Want it handled after launch too?</h3>
-            <p className="text-gray-400 text-sm max-w-xl mx-auto leading-relaxed">
-              Optional ongoing care plan: <span className="text-[#c9a84c] font-bold">$50–$150/month</span> for
-              hosting, maintenance, content updates, new blog posts, and SEO upkeep. No contracts. Cancel anytime.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* FEATURED WORK */}
-      <section className="py-20 px-6 border-t border-[#141414]">
-        <div className="max-w-4xl mx-auto">
-          <div className="mb-10 text-center">
-            <p className="text-[#c9a84c] text-xs font-bold tracking-[0.3em] uppercase mb-3">Proof, Not Promises</p>
-            <h2 className="text-4xl font-black tracking-tight">See it live</h2>
-          </div>
-          <div className="flex flex-col gap-4">
-            {/* Live client */}
-            <a
-              href="https://rjstreecare.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group block bg-[#0f0f0f] border border-[#1e1e1e] rounded-2xl p-8 hover:border-[#c9a84c]/40 transition-all hover:-translate-y-0.5"
-            >
-              <div className="flex items-start justify-between flex-wrap gap-4">
-                <div>
-                  <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-[#2d9e6b]/10 text-[#2d9e6b] mb-3 inline-block">
-                    Live Client Site
-                  </span>
-                  <h3 className="text-2xl font-black text-white group-hover:text-[#c9a84c] transition-colors">
-                    rjstreecare.com
-                  </h3>
-                  <p className="text-gray-500 text-sm mt-1">RJ&apos;s Tree Care — Dillsboro, IN</p>
-                </div>
-                <p className="text-[#c9a84c] text-sm font-semibold group-hover:underline">
-                  Visit the live site →
-                </p>
+          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {CARE.map((c) => (
+              <div key={c.name} className="bg-[#0f0f0f] border border-[#1e1e1e] rounded-2xl p-7">
+                <h3 className="font-black text-white text-lg">{c.name} <span className="text-[#c9a84c]">{c.price}</span></h3>
+                <p className="text-gray-400 text-sm mt-2 leading-relaxed">{c.desc}</p>
               </div>
-              <p className="text-gray-400 text-sm leading-relaxed mt-5 max-w-2xl">
-                A real, full-featured local business site: 19 pages, technical SEO with schema markup,
-                service-area pages targeting real cities and zip codes, a photo gallery of real completed
-                jobs, and a contact pipeline that lands every lead directly in the owner&apos;s inbox.
-                This is the caliber of site every Storefront Studio client gets, not a stripped-down demo.
-              </p>
-            </a>
+            ))}
+          </div>
 
-            {/* Demo sites */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <a
-                href="https://dentist-demo-phi.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group block bg-[#0f0f0f] border border-[#1e1e1e] rounded-2xl p-6 hover:border-[#c9a84c]/40 transition-all hover:-translate-y-0.5"
-              >
-                <div className="flex items-start justify-between gap-3 mb-3">
-                  <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-blue-500/10 text-blue-400 shrink-0">
-                    Demo — Medical
-                  </span>
-                  <p className="text-[#c9a84c] text-xs font-semibold group-hover:underline shrink-0">View demo →</p>
-                </div>
-                <h3 className="text-lg font-black text-white group-hover:text-[#c9a84c] transition-colors mb-1">
-                  Maple &amp; Birch Family Dentistry
-                </h3>
-                <p className="text-gray-500 text-xs mb-3">Family dental practice — services, team, booking flow</p>
-                <p className="text-gray-500 text-xs leading-relaxed">
-                  Multi-page dental site with services, meet-the-team, patient resources, insurance info, and a conversion-focused contact flow.
-                </p>
-              </a>
-
-              <a
-                href="https://bakery-demo-eta.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group block bg-[#0f0f0f] border border-[#1e1e1e] rounded-2xl p-6 hover:border-[#c9a84c]/40 transition-all hover:-translate-y-0.5"
-              >
-                <div className="flex items-start justify-between gap-3 mb-3">
-                  <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-400 shrink-0">
-                    Demo — Food &amp; Bakery
-                  </span>
-                  <p className="text-[#c9a84c] text-xs font-semibold group-hover:underline shrink-0">View demo →</p>
-                </div>
-                <h3 className="text-lg font-black text-white group-hover:text-[#c9a84c] transition-colors mb-1">
-                  Wren &amp; Wheat Bakehouse
-                </h3>
-                <p className="text-gray-500 text-xs mb-3">Artisan bakery and café — 17 pages, menu, ordering, blog</p>
-                <p className="text-gray-500 text-xs leading-relaxed">
-                  Full-featured bakery site with menu, custom cakes, catering, seasonal specials, order-ahead, gallery, and 3 editorial blog posts.
-                </p>
-              </a>
-            </div>
+          <div className="mt-6 bg-[#0f0f0f] border border-[#1e1e1e] rounded-2xl p-7">
+            <h3 className="font-black text-white text-lg mb-2">About domains</h3>
+            <p className="text-gray-400 text-sm leading-relaxed">
+              Your domain is registered in your name and billed at cost, not marked up. A .com usually runs
+              $10 to $25 a year, though some premium names cost more. We&apos;ll check availability and suggest
+              options, but we can&apos;t guarantee a specific name, and registrars set the prices. Builds are half
+              up front and half at launch.
+            </p>
           </div>
         </div>
       </section>
@@ -301,7 +240,7 @@ export default function StorefrontStudioPage() {
         <div className="max-w-5xl mx-auto">
           <div className="mb-12 text-center">
             <p className="text-[#c9a84c] text-xs font-bold tracking-[0.3em] uppercase mb-3">How It Works</p>
-            <h2 className="text-4xl font-black tracking-tight">From call to launch</h2>
+            <h2 className="text-4xl font-black tracking-tight">From sample to launch</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {PROCESS.map((p) => (
@@ -323,7 +262,7 @@ export default function StorefrontStudioPage() {
             <h2 className="text-3xl font-black tracking-tight mb-4">Tell us about your business</h2>
             <p className="text-gray-400 text-sm leading-relaxed">
               Fill this out and we&apos;ll look it over. No obligation, no sales pitch.
-              If it&apos;s a good fit we&apos;ll set up a quick call.
+              If it&apos;s a good fit, we&apos;ll build you a free sample and send you the link.
             </p>
           </div>
           <InquiryForm />

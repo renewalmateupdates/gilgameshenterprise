@@ -31,3 +31,7 @@ Dark/gold professional hub for Joshua Bostic's ventures. Lists: SocialMate, Rene
 - Vercel Analytics is wired in the root layout — don't remove.
 - Sitemap is submitted to Google Search Console (DNS TXT verified). When resubmitting, enter only `sitemap.xml`, not the full URL.
 - Mirror SocialMate's workflow discipline: one branch + one PR per change, always open a PR after pushing and give the direct link.
+
+## Storefront Studio pricing (set Nov 15, 2026)
+
+Starter $1,000 (up to 5 pages), Standard $2,000 (up to 10), Pro $3,000+ (15 to 20, blog, town SEO). A free sample site comes first, half up front, half at launch. Care $49/month, Growth $99/month. Domains are in the client's name, billed at cost, never guaranteed. No calls: the process is form, free sample, email. Keep `app/storefront-studio/page.tsx`, `app/faq/page.tsx`, `components/HomeClient.tsx` and `public/llms.txt` in agreement. Sample sites are built from JSON in the local `storefront-demos` folder (`node build.mjs`).

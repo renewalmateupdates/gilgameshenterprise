@@ -37,7 +37,7 @@ export default function InquiryForm() {
     return (
       <div className="bg-[#0f0f0f] border border-[#c9a84c]/30 rounded-2xl p-10 text-center">
         <div className="text-4xl mb-4">✓</div>
-        <h3 className="text-xl font-black text-white mb-2">Got it — we'll be in touch.</h3>
+        <h3 className="text-xl font-black text-white mb-2">Got it, we'll be in touch.</h3>
         <p className="text-gray-400 text-sm leading-relaxed max-w-sm mx-auto">
           Expect a reply within 3–5 business days. If it's urgent, email directly at{' '}
           <a href="mailto:gilgameshenterprisellc@gmail.com" className="text-[#c9a84c]">
@@ -138,7 +138,7 @@ export default function InquiryForm() {
       </div>
 
       {status === 'error' && (
-        <p className="text-red-400 text-sm">Something went wrong — try emailing us directly at gilgameshenterprisellc@gmail.com</p>
+        <p className="text-red-400 text-sm">Something went wrong. Try emailing us directly at gilgameshenterprisellc@gmail.com</p>
       )}
 
       <button
