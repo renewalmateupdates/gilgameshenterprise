@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Riverside Kitchen | Restaurant in Cincinnati, OH (example site)</title>
+<meta name="description" content="Breakfast, lunch and homemade desserts, served with a smile.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"Riverside Kitchen","telephone":"(513) 555-0101","address":{"@type":"PostalAddress","addressLocality":"Cincinnati","addressRegion":"OH","addressCountry":"US"},"areaServed":["Cincinnati","Covington","Newport","Florence","Norwood","Cheviot","Blue Ash","Lawrenceburg"]}</script>
+<style>
+:root{--accent:#d6336c;--accent-dark:#a61e4d;--ink:#1c1418;--paper:#f7f5f2;--muted:#5d6470;--line:#e4e0da}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{overflow-x:hidden}
+body{margin:0;font:16px/1.6 Inter,system-ui,sans-serif;color:var(--ink);background:var(--paper)}
+h1,h2,h3{font-family:Outfit,Inter,sans-serif;line-height:1.1;margin:0}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+.sample{background:#111;color:#f1f1f1;font-size:13px;text-align:center;padding:8px 16px}
+.sample b{color:var(--accent)}
+header.top{position:sticky;top:0;z-index:20;background:rgba(22,24,29,.96);backdrop-filter:blur(8px);color:#fff}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px}
+.brand{font-family:Outfit;font-weight:800;font-size:20px;letter-spacing:.01em;text-decoration:none}
+.brand span{color:var(--accent)}
+nav.links{display:flex;gap:22px;font-size:14px}nav.links a{text-decoration:none;opacity:.8}nav.links a:hover{opacity:1}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 22px;border-radius:10px;font-weight:600;text-decoration:none;border:0;cursor:pointer;font-size:16px}
+.btn-accent{background:var(--accent);color:#fff}.btn-accent:hover{background:var(--accent-dark)}
+.btn-ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.35)}
+.hero{background:radial-gradient(1200px 500px at 80% -10%,rgba(232,89,12,.28),transparent 60%),var(--ink);color:#fff;padding:84px 0 96px}
+.hero .eyebrow{display:inline-flex;gap:8px;align-items:center;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);padding:6px 12px;border-radius:999px;font-size:14px}
+.hero .eyebrow .stars{color:#ffb547;letter-spacing:1px}
+.hero h1{font-size:clamp(38px,6vw,64px);font-weight:800;margin:20px 0 16px;max-width:15ch}
+.hero p{font-size:19px;color:#c9ccd3;max-width:52ch;margin:0 0 30px}
+.hero .ctas{display:flex;gap:12px;flex-wrap:wrap}
+section{padding:80px 0}
+.kicker{color:var(--accent);font-weight:600;font-size:14px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px}
+h2{font-size:clamp(28px,4vw,40px);font-weight:800;margin-bottom:12px}
+.lead{color:var(--muted);max-width:60ch;margin:0 0 36px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:18px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px}
+.card svg{width:30px;height:30px;stroke:var(--accent);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.card h3{font-size:20px;margin:12px 0 6px}.card p{margin:0;color:var(--muted)}
+.note{font-size:13px;color:var(--muted);margin-top:14px;font-style:italic}
+.why{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}
+.stat{padding:22px;border-left:3px solid var(--accent);background:var(--paper);border-radius:0 12px 12px 0}
+.stat b{display:block;font-family:Outfit;font-size:30px}.stat span{color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:10px}.chips span{background:#fff;border:1px solid var(--line);padding:8px 14px;border-radius:999px;font-weight:500}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.hours{list-style:none;padding:0;margin:0 0 20px}.hours li{display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-bottom:1px solid var(--line)}
+.hours li.placeholder{color:var(--muted);font-style:italic}
+.map{width:100%;height:100%;min-height:320px;border:0;border-radius:14px}
+form{display:grid;gap:12px;margin-top:8px}
+input,textarea{width:100%;font:inherit;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:#fff}
+footer{background:var(--ink);color:#aeb3bc;padding:36px 0 110px;font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.sample .switch{margin-top:6px;display:flex;gap:6px;justify-content:center;flex-wrap:wrap}.sample .switch a{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:3px 12px}.sample .switch a.on{background:var(--accent);border-color:var(--accent)}
+.callbar{position:fixed;left:0;right:0;bottom:0;z-index:30;display:none;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:var(--ink)}
+.callbar .btn{width:100%}
+@media (max-width:820px){nav.links{display:none}header.top .btn{display:none}.contact{grid-template-columns:1fr}.sample .switch{margin-top:6px;display:flex;gap:6px;justify-content:center;flex-wrap:wrap}.sample .switch a{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:3px 12px}.sample .switch a.on{background:var(--accent);border-color:var(--accent)}
+.callbar{display:block}.hero{padding:60px 0 72px}section{padding:60px 0}}
+</style>
+</head>
+<body>
+<div class="sample"><b>Example site</b> by Storefront Studio. This business is made up to show what your site could look like.<div class="switch">See it as: <a href="/examples" class="on">Restaurant</a><a href="/examples/home-services">Home services</a><a href="/examples/auto">Auto shop</a><a href="/examples/salon">Salon</a></div></div>
+<header class="top"><div class="wrap">
+  <a class="brand" href="#top">Riverside <span>Kitchen</span></a>
+  <nav class="links"><a href="#services">Menu</a><a href="#why">Why us</a><a href="#area">Service area</a><a href="#contact">Contact</a></nav>
+  <a class="btn btn-accent" href="tel:+15135550101">Call (513) 555-0101</a>
+</div></header>
+
+<main id="top">
+<section class="hero"><div class="wrap">
+  
+  <h1>Home cooking, right here in Cincinnati.</h1>
+  <p>Breakfast, lunch and homemade desserts, served with a smile.</p>
+  <div class="ctas"><a class="btn btn-accent" href="tel:+15135550101">Call (513) 555-0101</a><a class="btn btn-ghost" href="#contact">Call ahead for pickup</a></div>
+</div></section>
+
+<section id="services"><div class="wrap">
+  <div class="kicker">On the menu</div>
+  <h2>What we serve</h2>
+  <p class="lead">Made from scratch every day, the way the neighborhood likes it.</p>
+  <div class="grid"><div class="card"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11h16a8 8 0 0 1-16 0zM12 3v4M8 5v2M16 5v2"/></svg><h3>Breakfast</h3><p>Eggs, pancakes and all the classics to start the day right.</p></div><div class="card"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12c0-4 3-7 7-7s7 3 7 7v1H5zM4 16h16M6 19h12"/></svg><h3>Lunch</h3><p>Burgers, sandwiches and daily specials.</p></div><div class="card"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3v8a2 2 0 0 0 4 0V3M8 11v10M17 3c-2 0-3 3-3 6s1 4 3 4v8"/></svg><h3>Homemade desserts</h3><p>Pies, cookies and cakes baked in house.</p></div><div class="card"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8h10l-1 13H8zM6 5h12v3H6z"/></svg><h3>Carryout</h3><p>Call it in and pick it up hot.</p></div><div class="card"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg><h3>Catering</h3><p>Trays for the office, parties and family events.</p></div><div class="card"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10l9-6 9 6v10H3zM9 20v-6h6v6"/></svg><h3>Gift cards</h3><p>The easy gift for the food lover in your life.</p></div></div>
+  <p class="note">Example content. Your real services, photos and prices go here.</p>
+</div></section>
+
+<section id="why" class="why"><div class="wrap">
+  <div class="kicker">Why Cincinnati keeps coming back</div>
+  <h2>Your neighborhood table</h2>
+  <p class="lead">Friendly faces, fresh food and a seat that feels like home.</p>
+  <div class="stats">
+    
+    <div class="stat"><b>Local</b><span>Based in Cincinnati, OH</span></div>
+    <div class="stat"><b>Fresh</b><span>Made from scratch every morning</span></div>
+  </div>
+</div></section>
+
+<section id="area"><div class="wrap">
+  <div class="kicker">Service area</div>
+  <h2>Easy to find</h2>
+  <p class="lead">Regulars come in from all around Cincinnati.</p>
+  <div class="chips"><span>Cincinnati</span><span>Covington</span><span>Newport</span><span>Florence</span><span>Norwood</span><span>Cheviot</span><span>Blue Ash</span><span>Lawrenceburg</span></div>
+</div></section>
+
+<section id="contact" class="why"><div class="wrap contact">
+  <div>
+    <div class="kicker">Contact</div>
+    <h2>Come hungry</h2>
+    <p class="lead">Call ahead for carryout or ask about catering.</p>
+    <ul class="hours"><li><span>Monday to Friday</span><span>8 AM to 6 PM</span></li><li><span>Saturday</span><span>9 AM to 3 PM</span></li><li><span>Sunday</span><span>Closed</span></li></ul>
+    <a class="btn btn-accent" href="tel:+15135550101">Call (513) 555-0101</a>
+    <form onsubmit="event.preventDefault();this.querySelector('button').textContent='Sample only: on the real site this goes to your inbox'">
+      <input name="name" placeholder="Your name" required>
+      <input name="phone" placeholder="Phone number" required>
+      <textarea name="msg" rows="3" placeholder="Your carryout order or catering question"></textarea>
+      <button class="btn btn-accent" type="submit">Send</button>
+    </form>
+  </div>
+  <iframe class="map" loading="lazy" title="Map to Riverside Kitchen" src="https://maps.google.com/maps?q=Cincinnati%2C%20OH&output=embed"></iframe>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <span>© 2026 Riverside Kitchen · Cincinnati, OH</span>
+  <span>Sample site by Storefront Studio, a Gilgamesh Enterprise service</span>
+</div></footer>
+<div class="callbar"><a class="btn btn-accent" href="tel:+15135550101">Call (513) 555-0101</a></div>
+</body>
+</html>

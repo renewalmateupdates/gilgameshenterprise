@@ -122,7 +122,7 @@ export default function StorefrontStudioPage() {
           <p className="text-gray-400 text-lg max-w-xl mx-auto leading-relaxed">
             Conversion-focused, mobile-first websites for local businesses. Flat fee.
             No retainers, no agency markup, no template you don&apos;t own. Built by the
-            same team shipping SocialMate to thousands of creators.
+            same team behind SocialMate.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -132,6 +132,12 @@ export default function StorefrontStudioPage() {
               className="px-8 py-3 bg-[#c9a84c] text-black font-bold rounded-full hover:bg-[#e8c96a] transition-colors text-sm"
             >
               See Live Work: rjstreecare.com →
+            </a>
+            <a
+              href="/examples"
+              className="px-8 py-3 border border-[#c9a84c]/50 text-[#c9a84c] font-semibold rounded-full hover:border-[#c9a84c] transition-colors text-sm"
+            >
+              See Example Sites
             </a>
             <a
               href="#inquire"
