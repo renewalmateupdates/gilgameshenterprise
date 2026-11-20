@@ -174,19 +174,19 @@ export default function GuidesPage() {
           <img src="/shop/complete-edition.webp" alt="Cover of Gilgamesh's Guides: The Complete Edition" width={130} height={169} loading="lazy"
             className="w-[130px] h-auto flex-none rounded-md border border-white/10 shadow-lg shadow-black/40" />
           <div className="text-center sm:text-left">
-            <p className="text-[#d4a017] text-xs font-bold tracking-[0.3em] uppercase mb-2">Want them offline?</p>
+            <p className="text-[#d4a017] text-xs font-bold tracking-[0.3em] uppercase mb-2">Want them offline? Free.</p>
             <h2 className="text-2xl font-black text-white mb-2">All 14 guides in one PDF</h2>
             <p className="text-gray-400 text-sm leading-relaxed mb-5">
-              The guides stay free to read. The Complete Edition collects all fourteen in one 192-page PDF, corrected for late 2026, with 10 printable worksheets. 25% of every sale goes to SM-Give.
+              The Complete Edition collects all fourteen in one 192-page PDF, corrected for late 2026, with 10 printable worksheets. Free to download, no sign-up. The worksheets, the 2027 content planner and four kits are free too.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
-              <a href={shopUrl('guides', '/products/gilgameshs-guides-the-complete-edition')}
+              <a href="https://socialmate.studio/downloads/gilgameshs-guides-complete-edition.pdf"
                 className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-[#d4a017] px-6 text-sm font-bold text-black hover:bg-[#eac020] transition-colors">
-                Get the Complete Edition, $19
+                Download the PDF (3.1 MB)
               </a>
-              <a href={shopUrl('guides')}
+              <a href="https://socialmate.studio/guides#downloads"
                 className="inline-flex min-h-[44px] items-center justify-center rounded-xl border border-white/15 px-6 text-sm font-bold text-white hover:border-[#d4a017]/50 transition-colors">
-                Browse the shop
+                All seven free PDFs
               </a>
             </div>
           </div>

@@ -42,9 +42,9 @@ const VENTURES = [
   {
     name:     'Gilgamesh Shop',
     url:      shopUrl('ventures'),
-    tag:      'Digital Products',
+    tag:      'Merch',
     tagColor: '#EAC020',
-    desc:     'All 14 guides in one PDF, plus printable worksheets, a 2027 content planner and kits for building with AI and selling local business websites. 25% of every sale goes to SM-Give.',
+    desc:     'Tees, hoodies, mugs, posters and canvas drawn from the Epic of Gilgamesh and the mottos we work by. 25% of merch profit goes to SM-Give.',
     external: true,
   },
   {
